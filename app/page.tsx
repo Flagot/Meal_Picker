@@ -14,9 +14,18 @@ const page = () => {
   const foodImagesRef = useRef<(HTMLImageElement | null)[]>([]);
   const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
   const [loading, setLoading] = useState(false);
+  const [tryAgainLoading, setTryAgainLoading] = useState(false);
+  const [currentMealType, setCurrentMealType] = useState<string | null>(null);
 
-  const handleMealClick = async (mealType: string) => {
-    setLoading(true);
+  const fetchRandomMeal = async (
+    mealType: string,
+    isTryAgain: boolean = false
+  ) => {
+    if (isTryAgain) {
+      setTryAgainLoading(true);
+    } else {
+      setLoading(true);
+    }
     try {
       const response = await fetch(
         `/api/randomMeal?type=${mealType.toLowerCase()}`
@@ -26,11 +35,26 @@ const page = () => {
       }
       const meal: Meal = await response.json();
       setSelectedMeal(meal);
+      setCurrentMealType(mealType);
     } catch (error) {
       console.error("Error fetching meal:", error);
       alert("Failed to fetch a random meal. Please try again.");
     } finally {
-      setLoading(false);
+      if (isTryAgain) {
+        setTryAgainLoading(false);
+      } else {
+        setLoading(false);
+      }
+    }
+  };
+
+  const handleMealClick = async (mealType: string) => {
+    await fetchRandomMeal(mealType, false);
+  };
+
+  const handleTryAgain = async () => {
+    if (currentMealType) {
+      await fetchRandomMeal(currentMealType, true);
     }
   };
 
@@ -90,35 +114,35 @@ const page = () => {
       </p>
       <div className="flex flex-wrap gap-4 justify-center z-10">
         <button
-          className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
           onClick={() => handleMealClick("Breakfast")}
           disabled={loading}
         >
           {loading ? "Loading..." : "Breakfast"}
         </button>
         <button
-          className="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
           onClick={() => handleMealClick("Lunch")}
           disabled={loading}
         >
           {loading ? "Loading..." : "Lunch"}
         </button>
         <button
-          className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
           onClick={() => handleMealClick("Dinner")}
           disabled={loading}
         >
           {loading ? "Loading..." : "Dinner"}
         </button>
         <button
-          className="bg-purple-500 text-white px-6 py-3 rounded-md hover:bg-purple-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-purple-500 text-white px-6 py-3 rounded-md hover:bg-purple-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
           onClick={() => handleMealClick("Snack")}
           disabled={loading}
         >
           {loading ? "Loading..." : "Snack"}
         </button>
         <button
-          className="bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
           onClick={() => handleMealClick("Drinks")}
           disabled={loading}
         >
@@ -149,10 +173,19 @@ const page = () => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="mb-4">
             <h3 className="font-semibold text-black mb-2">Instructions:</h3>
-            <p className="text-gray-700 whitespace-pre-line">{selectedMeal.instructions}</p>
+            <p className="text-gray-700 whitespace-pre-line">
+              {selectedMeal.instructions}
+            </p>
           </div>
+          <button
+            onClick={handleTryAgain}
+            disabled={tryAgainLoading}
+            className="w-full mt-4 bg-gray-600 text-white px-6 py-3 rounded-md hover:bg-gray-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {tryAgainLoading ? "Loading..." : "Try Again"}
+          </button>
         </div>
       )}
 

@@ -39,5 +39,173 @@
     "ingredients": ["tea", "lemon", "ice", "sugar"],
     "instructions": "Brew tea. Add lemon and sugar. Pour over ice.",
     "image": "/firfir.jpg"
+  },
+  {
+    "name": "Avocado Toast",
+    "type": "breakfast",
+    "ingredients": ["bread", "avocado", "lemon", "salt", "pepper"],
+    "instructions": "Toast bread. Mash avocado with lemon, salt, and pepper. Spread on toast.",
+    "image": "/avocado-toast.jpg"
+  },
+  {
+    "name": "Veggie Burrito Bowl",
+    "type": "lunch",
+    "ingredients": [
+      "rice",
+      "black beans",
+      "corn",
+      "tomato",
+      "lettuce",
+      "avocado",
+      "salsa"
+    ],
+    "instructions": "Cook rice. Combine all ingredients in a bowl. Top with salsa and avocado.",
+    "image": "/burrito-bowl.jpg"
+  },
+  {
+    "name": "Beef Stir Fry",
+    "type": "dinner",
+    "ingredients": [
+      "beef",
+      "bell peppers",
+      "onion",
+      "soy sauce",
+      "garlic",
+      "rice"
+    ],
+    "instructions": "Stir fry beef. Add veggies and sauce. Serve with rice.",
+    "image": "/beef-stirfry.jpg"
+  },
+  {
+    "name": "Fruit Smoothie",
+    "type": "drinks",
+    "ingredients": ["banana", "strawberries", "yogurt", "milk", "honey"],
+    "instructions": "Blend all ingredients until smooth. Serve chilled.",
+    "image": "/fruit-smoothie.jpg"
+  },
+  {
+    "name": "Hummus & Veggie Wrap",
+    "type": "snack",
+    "ingredients": ["tortilla", "hummus", "carrots", "cucumber", "lettuce"],
+    "instructions": "Spread hummus on tortilla. Add veggies. Roll up and slice.",
+    "image": "/hummus-wrap.jpg"
+  },
+  {
+    "name": "Chicken Curry",
+    "type": "dinner",
+    "ingredients": [
+      "chicken",
+      "curry powder",
+      "onion",
+      "garlic",
+      "tomato",
+      "rice"
+    ],
+    "instructions": "Cook chicken in curry powder. Add onion, garlic, tomato, and rice. Serve with rice.",
+    "image": "/chicken-curry.jpg"
+  },
+  {
+    "name": "Vegetable Soup",
+    "type": "lunch",
+    "ingredients": [
+      "carrots",
+      "celery",
+      "onion",
+      "potato",
+      "beef broth",
+      "vegetables"
+    ],
+    "instructions": "Cook vegetables in beef broth. Serve with rice.",
+    "image": "/vegetable-soup.jpg"
+  },
+  {
+    "name": "Grilled Salmon",
+    "type": "dinner",
+    "ingredients": ["salmon", "lemon", "garlic", "salt", "pepper"],
+    "instructions": "Grill salmon with lemon, garlic, salt, and pepper.",
+    "image": "/grilled-salmon.jpg"
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "type": "drinks",
+    "ingredients": ["strawberries", "milk", "sugar", "ice"],
+    "instructions": "Blend strawberries, milk, sugar, and ice until smooth. Serve chilled.",
+    "image": "/strawberry-milkshake.jpg"
+  },
+  {
+    "name": "Caprese Salad",
+    "type": "lunch",
+    "ingredients": [
+      "tomatoes",
+      "mozzarella",
+      "basil",
+      "olive oil",
+      "balsamic glaze"
+    ],
+    "instructions": "Slice tomatoes and mozzarella. Add basil and olive oil. Serve with balsamic glaze.",
+    "image": "/caprese-salad.jpg"
+  },
+  {
+    "name": "Tuna Salad",
+    "type": "lunch",
+    "ingredients": ["tuna", "mayonnaise", "mustard", "celery", "onion"],
+    "instructions": "Mix tuna, mayonnaise, mustard, celery, and onion. Serve with bread.",
+    "image": "/tuna-salad.jpg"
+  },
+  {
+    "name": "Vegetable Pizza",
+    "type": "dinner",
+    "ingredients": [
+      "pizza dough",
+      "tomatoes",
+      "onion",
+      "bell peppers",
+      "mushrooms",
+      "olive oil"
+    ],
+    "instructions": "Spread pizza dough. Add tomatoes, onion, bell peppers, mushrooms, and olive oil. Bake at 450°F for 15 minutes.",
+    "image": "/vegetable-pizza.jpg"
+  },
+  {
+    "name": "Greek Salad",
+    "type": "lunch",
+    "ingredients": ["lettuce", "tomatoes", "onion", "olive oil", "vinegar"],
+    "instructions": "Mix lettuce, tomatoes, onion, olive oil, and vinegar. Serve with bread.",
+    "image": "/greek-salad.jpg"
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "type": "dinner",
+    "ingredients": ["pasta", "chicken", " Alfredo sauce", "parmesan", "garlic"],
+    "instructions": "Cook pasta. Add chicken and Alfredo sauce. Serve with parmesan and garlic.",
+    "image": "/chicken-alfredo-pasta.jpg"
+  },
+  {
+    "name": "Beef Tacos",
+    "type": "dinner",
+    "ingredients": [
+      "beef",
+      "tortillas",
+      "lettuce",
+      "tomato",
+      "onion",
+      "cheese"
+    ],
+    "instructions": "Cook beef. Add lettuce, tomato, onion, and cheese to tortillas. Serve with salsa.",
+    "image": "/beef-tacos.jpg"
+  },
+  {
+    "name": "Vegetable Soup",
+    "type": "lunch",
+    "ingredients": [
+      "carrots",
+      "celery",
+      "onion",
+      "potato",
+      "beef broth",
+      "vegetables"
+    ],
+    "instructions": "Cook vegetables in beef broth. Serve with rice.",
+    "image": "/vegetable-soup.jpg"
   }
 ]
