@@ -81,7 +81,7 @@ const page = () => {
   ];
 
   return (
-    <div className="relative flex flex-col items-center justify-start h-screen gap-4 pt-20 bg-white overflow-hidden">
+    <div className="relative flex flex-col items-center justify-start min-h-screen gap-4 pt-20 pb-8 bg-white overflow-y-auto">
       <h1 className="text-4xl font-bold text-black z-10">
         Pick Your Next Meal
       </h1>
@@ -127,7 +127,14 @@ const page = () => {
       </div>
 
       {selectedMeal && (
-        <div className="mt-8 p-6 bg-white border-2 border-gray-200 rounded-lg shadow-lg z-10 max-w-md">
+        <div className="mt-8 p-6 bg-white border-2 border-gray-200 rounded-lg shadow-lg z-10 max-w-md max-h-[80vh] overflow-y-auto">
+          {selectedMeal.image && (
+            <img
+              src={selectedMeal.image}
+              alt={selectedMeal.name}
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+          )}
           <h2 className="text-2xl font-bold text-black mb-2">
             {selectedMeal.name}
           </h2>
@@ -144,15 +151,8 @@ const page = () => {
           </div>
           <div>
             <h3 className="font-semibold text-black mb-2">Instructions:</h3>
-            <p className="text-gray-700">{selectedMeal.instructions}</p>
+            <p className="text-gray-700 whitespace-pre-line">{selectedMeal.instructions}</p>
           </div>
-          {selectedMeal.image && (
-            <img
-              src={selectedMeal.image}
-              alt={selectedMeal.name}
-              className="mt-4 w-full h-48 object-cover rounded-lg"
-            />
-          )}
         </div>
       )}
 
