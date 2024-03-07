@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "type": "dinner",
+    "ingredients": ["spaghetti", "eggs", "parmesan", "bacon"],
+    "instructions": "Boil spaghetti. Fry bacon. Mix eggs and parmesan. Combine everything.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Pancakes",
+    "type": "breakfast",
+    "ingredients": ["flour", "milk", "eggs", "baking powder", "sugar"],
+    "instructions": "Mix all ingredients. Pour batter on pan. Cook until golden on both sides.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "type": "lunch",
+    "ingredients": [
+      "lettuce",
+      "chicken breast",
+      "parmesan",
+      "croutons",
+      "caesar dressing"
+    ],
+    "instructions": "Grill chicken. Toss with lettuce, parmesan, croutons, and dressing.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "type": "snack",
+    "ingredients": ["bread", "cheddar cheese", "butter"],
+    "instructions": "Butter the bread, add cheese, and grill until golden brown.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Iced Lemon Tea",
+    "type": "drinks",
+    "ingredients": ["tea", "lemon", "ice", "sugar"],
+    "instructions": "Brew tea. Add lemon and sugar. Pour over ice.",
+    "image": "/firfir.jpg"
+  }
+]
