@@ -1,61 +1,14 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import gsap from "gsap";
-
-interface Meal {
-  name: string;
-  type: string;
-  ingredients: string[];
-  instructions: string;
-  image: string;
-}
 
 const page = () => {
   const foodImagesRef = useRef<(HTMLImageElement | null)[]>([]);
-  const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [tryAgainLoading, setTryAgainLoading] = useState(false);
-  const [currentMealType, setCurrentMealType] = useState<string | null>(null);
+  const router = useRouter();
 
-  const fetchRandomMeal = async (
-    mealType: string,
-    isTryAgain: boolean = false
-  ) => {
-    if (isTryAgain) {
-      setTryAgainLoading(true);
-    } else {
-      setLoading(true);
-    }
-    try {
-      const response = await fetch(
-        `/api/randomMeal?type=${mealType.toLowerCase()}`
-      );
-      if (!response.ok) {
-        throw new Error("Failed to fetch meal");
-      }
-      const meal: Meal = await response.json();
-      setSelectedMeal(meal);
-      setCurrentMealType(mealType);
-    } catch (error) {
-      console.error("Error fetching meal:", error);
-      alert("Failed to fetch a random meal. Please try again.");
-    } finally {
-      if (isTryAgain) {
-        setTryAgainLoading(false);
-      } else {
-        setLoading(false);
-      }
-    }
-  };
-
-  const handleMealClick = async (mealType: string) => {
-    await fetchRandomMeal(mealType, false);
-  };
-
-  const handleTryAgain = async () => {
-    if (currentMealType) {
-      await fetchRandomMeal(currentMealType, true);
-    }
+  const handleMealClick = (mealType: string) => {
+    router.push(`/meal/${mealType.toLowerCase()}`);
   };
 
   useEffect(() => {
@@ -114,80 +67,36 @@ const page = () => {
       </p>
       <div className="flex flex-wrap gap-4 justify-center z-10">
         <button
-          className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
+          className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition min-w-[120px]"
           onClick={() => handleMealClick("Breakfast")}
-          disabled={loading}
         >
-          {loading ? "Loading..." : "Breakfast"}
+          Breakfast
         </button>
         <button
-          className="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
+          className="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition min-w-[120px]"
           onClick={() => handleMealClick("Lunch")}
-          disabled={loading}
         >
-          {loading ? "Loading..." : "Lunch"}
+          Lunch
         </button>
         <button
-          className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
+          className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 transition min-w-[120px]"
           onClick={() => handleMealClick("Dinner")}
-          disabled={loading}
         >
-          {loading ? "Loading..." : "Dinner"}
+          Dinner
         </button>
         <button
-          className="bg-purple-500 text-white px-6 py-3 rounded-md hover:bg-purple-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
+          className="bg-purple-500 text-white px-6 py-3 rounded-md hover:bg-purple-600 transition min-w-[120px]"
           onClick={() => handleMealClick("Snack")}
-          disabled={loading}
         >
-          {loading ? "Loading..." : "Snack"}
+          Snack
         </button>
         <button
-          className="bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-600 transition disabled:opacity-50 disabled:cursor-not-allowed min-w-[120px]"
+          className="bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-600 transition min-w-[120px]"
           onClick={() => handleMealClick("Drinks")}
-          disabled={loading}
         >
-          {loading ? "Loading..." : "Drinks"}
+          Drinks
         </button>
       </div>
-
-      {selectedMeal && (
-        <div className="mt-8 p-6 bg-white border-2 border-gray-200 rounded-lg shadow-lg z-10 max-w-md max-h-[80vh] overflow-y-auto">
-          {selectedMeal.image && (
-            <img
-              src={selectedMeal.image}
-              alt={selectedMeal.name}
-              className="w-full h-64 object-cover rounded-lg mb-4"
-            />
-          )}
-          <h2 className="text-2xl font-bold text-black mb-2">
-            {selectedMeal.name}
-          </h2>
-          <p className="text-sm text-gray-600 mb-4 capitalize">
-            Type: {selectedMeal.type}
-          </p>
-          <div className="mb-4">
-            <h3 className="font-semibold text-black mb-2">Ingredients:</h3>
-            <ul className="list-disc list-inside text-gray-700">
-              {selectedMeal.ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
-              ))}
-            </ul>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-semibold text-black mb-2">Instructions:</h3>
-            <p className="text-gray-700 whitespace-pre-line">
-              {selectedMeal.instructions}
-            </p>
-          </div>
-          <button
-            onClick={handleTryAgain}
-            disabled={tryAgainLoading}
-            className="w-full mt-4 bg-gray-600 text-white px-6 py-3 rounded-md hover:bg-gray-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {tryAgainLoading ? "Loading..." : "Try Again"}
-          </button>
-        </div>
-      )}
 
       {/* Food images positioned around the page */}
       <div className="absolute inset-0 pointer-events-none">
