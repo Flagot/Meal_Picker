@@ -158,7 +158,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className="relative flex flex-col items-center justify-start min-h-screen gap-4 pt-30 pb-8 bg-white overflow-y-auto">
+    <div className="relative flex flex-col items-center justify-start h-screen gap-4 pt-30 pb-8 bg-white overflow-hidden">
       <h1 className="text-5xl font-bold text-gray-900 z-10 font-caveat">
         Pick Your Next Meal!
       </h1>
@@ -210,12 +210,12 @@ const page = () => {
 
       {/* Food images positioned around the page */}
       <div className="absolute inset-0 pointer-events-none">
-        {/* Image 1 - Circle - Right top corner */}
+        {/* Image 1 - Right top corner */}
         <img
           ref={image1Ref}
-          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop"
+          src="/food1.png"
           alt="Food 1"
-          className="absolute w-32 h-32 object-cover rounded-full shadow-lg"
+          className="absolute w-32 h-32 object-cover"
           style={{
             top: "5%",
             right: "5%",
@@ -223,12 +223,12 @@ const page = () => {
           }}
         />
 
-        {/* Image 2 - Rounded square - Left top corner */}
+        {/* Image 2 - Left top corner */}
         <img
           ref={image2Ref}
-          src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop"
+          src="/food2.png"
           alt="Food 2"
-          className="absolute w-32 h-32 object-cover rounded-lg shadow-lg"
+          className="absolute w-32 h-32 object-cover"
           style={{
             top: "5%",
             left: "5%",
@@ -236,12 +236,12 @@ const page = () => {
           }}
         />
 
-        {/* Image 3 - More rounded - Bottom right */}
+        {/* Image 3 - Bottom right */}
         <img
           ref={image3Ref}
-          src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=200&h=200&fit=crop"
+          src="/food3.png"
           alt="Food 3"
-          className="absolute w-32 h-32 object-cover rounded-xl shadow-lg"
+          className="absolute w-32 h-32 object-cover"
           style={{
             bottom: "5%",
             right: "5%",
@@ -249,31 +249,29 @@ const page = () => {
           }}
         />
 
-        {/* Image 4 - Organic blob shape - Bottom left */}
+        {/* Image 4 - Bottom left */}
         <img
           ref={image4Ref}
-          src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=200&h=200&fit=crop"
+          src="/food4.png"
           alt="Food 4"
-          className="absolute w-32 h-32 object-cover shadow-lg"
+          className="absolute w-32 h-32 object-cover"
           style={{
             bottom: "5%",
             left: "5%",
-            borderRadius: "20% 80% 20% 80% / 80% 20% 80% 20%",
             opacity: 0,
           }}
         />
 
-        {/* Image 5 - Rounded rectangle - Bottom middle */}
+        {/* Image 5 - Bottom middle */}
         <img
           ref={image5Ref}
-          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&h=200&fit=crop"
+          src="/food5.png"
           alt="Food 5"
-          className="absolute w-32 h-32 object-cover shadow-lg"
+          className="absolute w-32 h-32 object-cover"
           style={{
             bottom: "5%",
             left: "50%",
             transform: "translateX(-50%)",
-            borderRadius: "50% 50% 50% 50% / 60% 60% 40% 40%",
             opacity: 0,
           }}
         />

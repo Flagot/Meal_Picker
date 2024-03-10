@@ -174,3 +174,4 @@ const MealPage = () => {
 };
 
 export default MealPage;
+

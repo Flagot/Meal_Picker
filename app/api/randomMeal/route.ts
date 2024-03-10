@@ -17,7 +17,8 @@ export async function GET(request: Request) {
     // Filter by meal type if provided
     if (mealType) {
       filteredMeals = mealsData.filter(
-        (meal: { type: string }) => meal.type.toLowerCase() === mealType.toLowerCase()
+        (meal: { type: string }) =>
+          meal.type.toLowerCase() === mealType.toLowerCase()
       );
     }
 
@@ -38,4 +39,3 @@ export async function GET(request: Request) {
     );
   }
 }
-
