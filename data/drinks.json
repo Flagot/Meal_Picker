@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Iced Lemon Tea",
+    "type": "drinks",
+    "ingredients": ["tea", "lemon", "ice", "sugar"],
+    "instructions": "Brew tea. Add lemon and sugar. Pour over ice.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Fruit Smoothie",
+    "type": "drinks",
+    "ingredients": ["banana", "strawberries", "yogurt", "milk", "honey"],
+    "instructions": "Blend all ingredients until smooth. Serve chilled.",
+    "image": "/fruit-smoothie.jpg"
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "type": "drinks",
+    "ingredients": ["strawberries", "milk", "sugar", "ice"],
+    "instructions": "Blend strawberries, milk, sugar, and ice until smooth. Serve chilled.",
+    "image": "/strawberry-milkshake.jpg"
+  }
+]
+

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Chicken Caesar Salad",
+    "type": "lunch",
+    "ingredients": [
+      "lettuce",
+      "chicken breast",
+      "parmesan",
+      "croutons",
+      "caesar dressing"
+    ],
+    "instructions": "Grill chicken. Toss with lettuce, parmesan, croutons, and dressing.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Veggie Burrito Bowl",
+    "type": "lunch",
+    "ingredients": [
+      "rice",
+      "black beans",
+      "corn",
+      "tomato",
+      "lettuce",
+      "avocado",
+      "salsa"
+    ],
+    "instructions": "Cook rice. Combine all ingredients in a bowl. Top with salsa and avocado.",
+    "image": "/burrito-bowl.jpg"
+  },
+  {
+    "name": "Vegetable Soup",
+    "type": "lunch",
+    "ingredients": [
+      "carrots",
+      "celery",
+      "onion",
+      "potato",
+      "beef broth",
+      "vegetables"
+    ],
+    "instructions": "Cook vegetables in beef broth. Serve with rice.",
+    "image": "/vegetable-soup.jpg"
+  },
+  {
+    "name": "Caprese Salad",
+    "type": "lunch",
+    "ingredients": [
+      "tomatoes",
+      "mozzarella",
+      "basil",
+      "olive oil",
+      "balsamic glaze"
+    ],
+    "instructions": "Slice tomatoes and mozzarella. Add basil and olive oil. Serve with balsamic glaze.",
+    "image": "/caprese-salad.jpg"
+  },
+  {
+    "name": "Tuna Salad",
+    "type": "lunch",
+    "ingredients": ["tuna", "mayonnaise", "mustard", "celery", "onion"],
+    "instructions": "Mix tuna, mayonnaise, mustard, celery, and onion. Serve with bread.",
+    "image": "/tuna-salad.jpg"
+  },
+  {
+    "name": "Greek Salad",
+    "type": "lunch",
+    "ingredients": ["lettuce", "tomatoes", "onion", "olive oil", "vinegar"],
+    "instructions": "Mix lettuce, tomatoes, onion, olive oil, and vinegar. Serve with bread.",
+    "image": "/greek-salad.jpg"
+  }
+]
+

@@ -7,29 +7,30 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const mealType = searchParams.get("type");
 
-    // Read meals data from JSON file
-    const filePath = join(process.cwd(), "data", "meals.json");
+    // Map meal types to their corresponding JSON files
+    const mealTypeMap: { [key: string]: string } = {
+      breakfast: "breakfast.json",
+      lunch: "lunch.json",
+      dinner: "dinner.json",
+      snack: "snack.json",
+      drinks: "drinks.json",
+    };
+
+    // Determine which file to read based on meal type
+    let fileName = "meals.json"; // fallback
+    if (mealType) {
+      const normalizedType = mealType.toLowerCase();
+      fileName = mealTypeMap[normalizedType] || "meals.json";
+    }
+
+    // Read meals data from the appropriate JSON file
+    const filePath = join(process.cwd(), "data", fileName);
     const fileContents = readFileSync(filePath, "utf8");
     const mealsData = JSON.parse(fileContents);
 
-    let filteredMeals = mealsData;
-
-    // Filter by meal type if provided
-    if (mealType) {
-      filteredMeals = mealsData.filter(
-        (meal: { type: string }) =>
-          meal.type.toLowerCase() === mealType.toLowerCase()
-      );
-    }
-
-    // If no meals match the filter, return all meals
-    if (filteredMeals.length === 0) {
-      filteredMeals = mealsData;
-    }
-
-    // Get a random meal
-    const randomIndex = Math.floor(Math.random() * filteredMeals.length);
-    const randomMeal = filteredMeals[randomIndex];
+    // Get a random meal from the file
+    const randomIndex = Math.floor(Math.random() * mealsData.length);
+    const randomMeal = mealsData[randomIndex];
 
     return NextResponse.json(randomMeal);
   } catch (error) {

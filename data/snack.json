@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Grilled Cheese Sandwich",
+    "type": "snack",
+    "ingredients": ["bread", "cheddar cheese", "butter"],
+    "instructions": "Butter the bread, add cheese, and grill until golden brown.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Hummus & Veggie Wrap",
+    "type": "snack",
+    "ingredients": ["tortilla", "hummus", "carrots", "cucumber", "lettuce"],
+    "instructions": "Spread hummus on tortilla. Add veggies. Roll up and slice.",
+    "image": "/hummus-wrap.jpg"
+  }
+]
+
