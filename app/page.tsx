@@ -109,22 +109,18 @@ const page = () => {
       });
     }
 
-    // Animate image 5 - Rounded rectangle
+    // Animate image 5 - Drink image - Grow from bottom
     const img5 = image5Ref.current;
     if (img5) {
       gsap.set(img5, {
-        x: Math.cos((240 * Math.PI) / 180) * 300,
-        y: Math.sin((240 * Math.PI) / 180) * 300,
-        rotation: 420,
+        y: 200,
         opacity: 0,
-        scale: 0.3,
+        scale: 0.2,
       });
       gsap.to(img5, {
-        x: 0,
         y: 0,
-        rotation: 0,
         opacity: 1,
-        scale: 1.5,
+        scale: 1.8,
         duration: 1,
         delay: 4 * 0.1,
         ease: "back.out(1.7)",
@@ -213,12 +209,12 @@ const page = () => {
         {/* Image 1 - Right top corner */}
         <img
           ref={image1Ref}
-          src="/food1.png"
+          src="/food3.png"
           alt="Food 1"
           className="absolute w-32 h-32 object-cover"
           style={{
-            top: "5%",
-            right: "5%",
+            top: "10%",
+            right: "15%",
             opacity: 0,
           }}
         />
@@ -230,8 +226,8 @@ const page = () => {
           alt="Food 2"
           className="absolute w-32 h-32 object-cover"
           style={{
-            top: "5%",
-            left: "5%",
+            top: "10%",
+            left: "15%",
             opacity: 0,
           }}
         />
@@ -239,12 +235,12 @@ const page = () => {
         {/* Image 3 - Bottom right */}
         <img
           ref={image3Ref}
-          src="/food3.png"
+          src="/food1.png"
           alt="Food 3"
           className="absolute w-32 h-32 object-cover"
           style={{
-            bottom: "5%",
-            right: "5%",
+            bottom: "10%",
+            right: "20%",
             opacity: 0,
           }}
         />
@@ -256,18 +252,18 @@ const page = () => {
           alt="Food 4"
           className="absolute w-32 h-32 object-cover"
           style={{
-            bottom: "5%",
-            left: "5%",
+            bottom: "15%",
+            left: "20%",
             opacity: 0,
           }}
         />
 
-        {/* Image 5 - Bottom middle */}
+        {/* Image 5 - Bottom middle - Drink (larger) */}
         <img
           ref={image5Ref}
-          src="/food5.png"
+          src="/drink.png"
           alt="Food 5"
-          className="absolute w-32 h-32 object-cover"
+          className="absolute w-48 h-48 object-cover"
           style={{
             bottom: "5%",
             left: "50%",

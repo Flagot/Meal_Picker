@@ -99,11 +99,11 @@ const MealPage = () => {
 
         <div className="bg-white border-2 border-gray-200 rounded-lg shadow-lg p-6">
           <h2 className="text-3xl font-bold text-black mb-2">{meal.name}</h2>
-          <p className="text-sm text-gray-600 mb-6 capitalize">
+          <p className="text-sm text-gray-600 mb-6 capitalize text-red-400">
             Type: {meal.type}
           </p>
-          <div className="mb-6 flex gap-6">
-            <div className="flex-1">
+          <div className="mb-4 flex items-start justify-start w-full">
+            <div className=" mr-15">
               <h3 className="text-xl font-semibold text-black mb-3">
                 Ingredients:
               </h3>
@@ -114,11 +114,11 @@ const MealPage = () => {
               </ul>
             </div>
             {meal.image && (
-              <div className="flex-1">
+              <div className="">
                 <img
                   src={meal.image}
                   alt={meal.name}
-                  className="w-full h-full max-h-64 object-cover rounded-lg"
+                  className="w-60 h-40 object-cover rounded-lg"
                 />
               </div>
             )}
@@ -174,4 +174,3 @@ const MealPage = () => {
 };
 
 export default MealPage;
-
