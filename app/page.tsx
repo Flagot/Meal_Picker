@@ -14,221 +14,224 @@ const page = () => {
   const dinnerButtonRef = useRef<HTMLButtonElement>(null);
   const snackButtonRef = useRef<HTMLButtonElement>(null);
   const drinksButtonRef = useRef<HTMLButtonElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const subtitleRef = useRef<HTMLParagraphElement>(null);
   const router = useRouter();
 
   const handleMealClick = (mealType: string) => {
     router.push(`/meal/${mealType.toLowerCase()}`);
   };
 
+  const mealTypes = [
+    { name: "Breakfast", color: "from-amber-400 to-orange-500", hoverColor: "hover:from-amber-500 hover:to-orange-600", ref: breakfastButtonRef, icon: "🌅" },
+    { name: "Lunch", color: "from-emerald-400 to-green-500", hoverColor: "hover:from-emerald-500 hover:to-green-600", ref: lunchButtonRef, icon: "🍽️" },
+    { name: "Dinner", color: "from-rose-400 to-pink-500", hoverColor: "hover:from-rose-500 hover:to-pink-600", ref: dinnerButtonRef, icon: "🌙" },
+    { name: "Snack", color: "from-violet-400 to-purple-500", hoverColor: "hover:from-violet-500 hover:to-purple-600", ref: snackButtonRef, icon: "🍿" },
+    { name: "Drinks", color: "from-cyan-400 to-blue-500", hoverColor: "hover:from-cyan-500 hover:to-blue-600", ref: drinksButtonRef, icon: "🥤" },
+  ];
+
   useEffect(() => {
-    // Animate image 1 - Circle shape
-    const img1 = image1Ref.current;
-    if (img1) {
-      gsap.set(img1, {
-        x: Math.cos((0 * Math.PI) / 180) * 300,
-        y: Math.sin((0 * Math.PI) / 180) * 300,
-        rotation: 180,
+    // Animate title
+    if (titleRef.current) {
+      gsap.from(titleRef.current, {
+        y: -50,
         opacity: 0,
-        scale: 0.3,
-      });
-      gsap.to(img1, {
-        x: 0,
-        y: 0,
-        rotation: 0,
-        opacity: 1,
-        scale: 1.5,
-        duration: 1,
-        delay: 0 * 0.1,
-        ease: "back.out(1.7)",
+        duration: 0.8,
+        ease: "power3.out",
       });
     }
 
-    // Animate image 2 - Rounded square
-    const img2 = image2Ref.current;
-    if (img2) {
-      gsap.set(img2, {
-        x: Math.cos((60 * Math.PI) / 180) * 300,
-        y: Math.sin((60 * Math.PI) / 180) * 300,
-        rotation: 240,
+    // Animate subtitle
+    if (subtitleRef.current) {
+      gsap.from(subtitleRef.current, {
+        y: -30,
         opacity: 0,
-        scale: 0.3,
-      });
-      gsap.to(img2, {
-        x: 0,
-        y: 0,
-        rotation: 0,
-        opacity: 1,
-        scale: 1.5,
-        duration: 1,
-        delay: 1 * 0.1,
-        ease: "back.out(1.7)",
+        duration: 0.8,
+        delay: 0.2,
+        ease: "power3.out",
       });
     }
 
-    // Animate image 3 - More rounded
-    const img3 = image3Ref.current;
-    if (img3) {
-      gsap.set(img3, {
-        x: Math.cos((120 * Math.PI) / 180) * 300,
-        y: Math.sin((120 * Math.PI) / 180) * 300,
-        rotation: 300,
-        opacity: 0,
-        scale: 0.3,
-      });
-      gsap.to(img3, {
-        x: 0,
-        y: 0,
-        rotation: 0,
-        opacity: 1,
-        scale: 1.5,
-        duration: 1,
-        delay: 2 * 0.1,
-        ease: "back.out(1.7)",
-      });
-    }
-
-    // Animate image 4 - Organic blob shape
-    const img4 = image4Ref.current;
-    if (img4) {
-      gsap.set(img4, {
-        x: Math.cos((180 * Math.PI) / 180) * 300,
-        y: Math.sin((180 * Math.PI) / 180) * 300,
-        rotation: 360,
-        opacity: 0,
-        scale: 0.3,
-      });
-      gsap.to(img4, {
-        x: 0,
-        y: 0,
-        rotation: 0,
-        opacity: 1,
-        scale: 1.5,
-        duration: 1,
-        delay: 3 * 0.1,
-        ease: "back.out(1.7)",
-      });
-    }
-
-    // Animate image 5 - Drink image - Grow from bottom
-    const img5 = image5Ref.current;
-    if (img5) {
-      gsap.set(img5, {
-        y: 200,
-        opacity: 0,
-        scale: 0.2,
-      });
-      gsap.to(img5, {
-        y: 0,
-        opacity: 1,
-        scale: 1.8,
-        duration: 1,
-        delay: 4 * 0.1,
-        ease: "back.out(1.7)",
-      });
-    }
-
-    // Animate buttons dropping one after another
-    const buttons = [
-      breakfastButtonRef.current,
-      lunchButtonRef.current,
-      dinnerButtonRef.current,
-      snackButtonRef.current,
-      drinksButtonRef.current,
+    // Animate top images (1 and 2) with circular pattern
+    const topImages = [
+      { ref: image1Ref, angle: 0, delay: 0.4 },
+      { ref: image2Ref, angle: 72, delay: 0.5 },
     ];
 
-    buttons.forEach((button, index) => {
+    topImages.forEach(({ ref, angle, delay }) => {
+      const img = ref.current;
+      if (img) {
+        gsap.set(img, {
+          x: Math.cos((angle * Math.PI) / 180) * 400,
+          y: Math.sin((angle * Math.PI) / 180) * 400,
+          rotation: angle + 180,
+          opacity: 0,
+          scale: 0.2,
+        });
+        gsap.to(img, {
+          x: 0,
+          y: 0,
+          rotation: 0,
+          opacity: 0.6,
+          scale: 1,
+          duration: 1.2,
+          delay: delay,
+          ease: "back.out(1.7)",
+        });
+
+        // Continuous floating animation
+        gsap.to(img, {
+          y: "+=20",
+          duration: 3,
+          repeat: -1,
+          yoyo: true,
+          ease: "sine.inOut",
+          delay: delay + 1.2,
+        });
+      }
+    });
+
+    // Animate bottom images (3, 4, 5) - Come out from bottom
+    const bottomImages = [
+      { ref: image3Ref, delay: 0.6, rotation: 10 },
+      { ref: image4Ref, delay: 0.7, rotation: -10 },
+      { ref: image5Ref, delay: 0.8, rotation: 0 },
+    ];
+
+    bottomImages.forEach(({ ref, delay, rotation }) => {
+      const img = ref.current;
+      if (img) {
+        gsap.set(img, {
+          y: 400,
+          opacity: 0,
+          scale: 0.5,
+          rotation: rotation,
+        });
+        gsap.to(img, {
+          y: 0,
+          opacity: 0.6,
+          scale: 1,
+          rotation: rotation,
+          duration: 1.5,
+          delay: delay,
+          ease: "power3.out",
+        });
+
+        // Continuous floating animation
+        gsap.to(img, {
+          y: "+=20",
+          duration: 3,
+          repeat: -1,
+          yoyo: true,
+          ease: "sine.inOut",
+          delay: delay + 1.5,
+        });
+      }
+    });
+
+    // Animate buttons with stagger
+    mealTypes.forEach((meal, index) => {
+      const button = meal.ref.current;
       if (button) {
         gsap.set(button, {
-          y: -100,
+          y: 50,
           opacity: 0,
+          scale: 0.8,
         });
         gsap.to(button, {
           y: 0,
           opacity: 1,
-          duration: 0.3,
-          delay: index * 0.2,
-          ease: "bounce.out",
+          scale: 1,
+          duration: 0.6,
+          delay: 0.8 + index * 0.1,
+          ease: "back.out(1.4)",
         });
       }
     });
   }, []);
 
   return (
-    <div className="relative flex flex-col items-center justify-start h-screen gap-4 pt-30 pb-8 bg-white overflow-hidden">
-      <h1 className="text-5xl font-bold text-gray-900 z-10 font-caveat">
-        Pick Your Next Meal!
-      </h1>
-      <p className="text-lg text-gray-600 z-10  ">
-        Do you struggle to decide what to eat? Let us help you.
-      </p>
-      <div className="flex flex-wrap gap-5 justify-center z-10 mt-4">
-        <button
-          ref={breakfastButtonRef}
-          className="group relative bg-gradient-to-br from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[140px] overflow-hidden"
-          onClick={() => handleMealClick("Breakfast")}
-        >
-          <span className="relative z-10">Breakfast</span>
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </button>
-        <button
-          ref={lunchButtonRef}
-          className="group relative bg-gradient-to-br from-green-500 to-green-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[140px] overflow-hidden"
-          onClick={() => handleMealClick("Lunch")}
-        >
-          <span className="relative z-10">Lunch</span>
-          <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </button>
-        <button
-          ref={dinnerButtonRef}
-          className="group relative bg-gradient-to-br from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[140px] overflow-hidden"
-          onClick={() => handleMealClick("Dinner")}
-        >
-          <span className="relative z-10">Dinner</span>
-          <div className="absolute inset-0 bg-gradient-to-br from-orange-600 to-orange-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </button>
-        <button
-          ref={snackButtonRef}
-          className="group relative bg-gradient-to-br from-purple-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[140px] overflow-hidden"
-          onClick={() => handleMealClick("Snack")}
-        >
-          <span className="relative z-10">Snack</span>
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </button>
-        <button
-          ref={drinksButtonRef}
-          className="group relative bg-gradient-to-br from-red-500 to-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[140px] overflow-hidden"
-          onClick={() => handleMealClick("Drinks")}
-        >
-          <span className="relative z-10">Drinks</span>
-          <div className="absolute inset-0 bg-gradient-to-br from-red-600 to-red-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        </button>
+    <div className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12 overflow-hidden bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
+      {/* Decorative background elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-20 left-10 w-72 h-72 bg-orange-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
+        <div className="absolute top-40 right-10 w-72 h-72 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-8 left-1/2 w-72 h-72 bg-amber-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-4000"></div>
+      </div>
+
+      {/* Main content */}
+      <div className="relative z-10 w-full max-w-6xl mx-auto text-center">
+        {/* Hero section */}
+        <div className="mb-12">
+          <h1
+            ref={titleRef}
+            className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent font-caveat drop-shadow-sm"
+          >
+            Pick Your Next Meal!
+          </h1>
+          <p
+            ref={subtitleRef}
+            className="text-xl md:text-2xl text-gray-700 font-poppins font-medium max-w-2xl mx-auto leading-relaxed"
+          >
+            Can't decide what to eat? Let us help you discover your perfect meal.
+          </p>
+        </div>
+
+        {/* Meal type buttons */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-16 max-w-5xl mx-auto">
+          {mealTypes.map((meal) => (
+            <button
+              key={meal.name}
+              ref={meal.ref}
+              className={`group relative bg-gradient-to-br ${meal.color} ${meal.hoverColor} text-white px-6 py-8 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden min-h-[160px] flex flex-col items-center justify-center gap-3 backdrop-blur-sm`}
+              onClick={() => handleMealClick(meal.name)}
+            >
+              {/* Shine effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+              
+              {/* Icon */}
+              <span className="text-5xl relative z-10 transform group-hover:scale-110 transition-transform duration-300">
+                {meal.icon}
+              </span>
+              
+              {/* Text */}
+              <span className="relative z-10 font-poppins font-bold text-xl">
+                {meal.name}
+              </span>
+              
+              {/* Decorative circle */}
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-white/10 rounded-full blur-2xl group-hover:bg-white/20 transition-colors duration-300"></div>
+              <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-white/10 rounded-full blur-xl group-hover:bg-white/20 transition-colors duration-300"></div>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Food images positioned around the page */}
-      <div className="absolute inset-0 pointer-events-none">
-        {/* Image 1 - Right top corner */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {/* Image 1 - Top right */}
         <img
           ref={image1Ref}
           src="/food3.png"
-          alt="Food 1"
-          className="absolute w-32 h-32 object-cover"
+          alt="Food decoration"
+          className="absolute w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl shadow-2xl opacity-0"
           style={{
-            top: "10%",
-            right: "15%",
-            opacity: 0,
+            top: "8%",
+            right: "8%",
+            transform: "rotate(-15deg)",
           }}
         />
 
-        {/* Image 2 - Left top corner */}
+        {/* Image 2 - Top left */}
         <img
           ref={image2Ref}
           src="/food2.png"
-          alt="Food 2"
-          className="absolute w-32 h-32 object-cover"
+          alt="Food decoration"
+          className="absolute w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl shadow-2xl opacity-0"
           style={{
-            top: "10%",
-            left: "15%",
-            opacity: 0,
+            top: "12%",
+            left: "8%",
+            transform: "rotate(15deg)",
           }}
         />
 
@@ -236,39 +239,38 @@ const page = () => {
         <img
           ref={image3Ref}
           src="/food1.png"
-          alt="Food 3"
-          className="absolute w-32 h-32 object-cover"
+          alt="Food decoration"
+          className="absolute w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl shadow-2xl opacity-0"
           style={{
             bottom: "10%",
-            right: "20%",
-            opacity: 0,
+            right: "12%",
+            transform: "rotate(10deg)",
           }}
         />
 
         {/* Image 4 - Bottom left */}
         <img
           ref={image4Ref}
-          src="/food4.png"
-          alt="Food 4"
-          className="absolute w-32 h-32 object-cover"
+          src="/food7.jpg"
+          alt="Food decoration"
+          className="absolute w-40 h-40 md:w-48 md:h-48 object-cover rounded-2xl shadow-2xl opacity-0"
           style={{
-            bottom: "15%",
-            left: "20%",
-            opacity: 0,
+            bottom: "10%",
+            left: "10%",
+            transform: "rotate(-10deg)",
           }}
         />
 
-        {/* Image 5 - Bottom middle - Drink (larger) */}
+        {/* Image 5 - Center bottom - Drink */}
         <img
           ref={image5Ref}
           src="/drink.png"
-          alt="Food 5"
-          className="absolute w-48 h-48 object-cover"
+          alt="Drink decoration"
+          className="absolute w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl opacity-0"
           style={{
-            bottom: "5%",
+            bottom: "-10%",
             left: "50%",
             transform: "translateX(-50%)",
-            opacity: 0,
           }}
         />
       </div>
