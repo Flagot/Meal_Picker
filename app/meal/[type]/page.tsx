@@ -126,13 +126,21 @@ const MealPage = () => {
 
         // Animate button
         if (buttonRef.current) {
-          gsap.from(buttonRef.current, {
-            y: 20,
-            opacity: 0,
-            duration: 0.6,
-            delay: 0.6,
-            ease: "power3.out",
-          });
+          gsap.fromTo(
+            buttonRef.current,
+            {
+              y: 20,
+              opacity: 0,
+            },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 0.6,
+              delay: 0.6,
+              ease: "power3.out",
+              clearProps: "transform",
+            }
+          );
         }
         
         isInitialLoad.current = false;
@@ -150,12 +158,25 @@ const MealPage = () => {
           gsap.set(buttonRef.current, {
             opacity: 1,
             y: 0,
-            clearProps: "all"
+            visibility: "visible",
+            clearProps: "transform"
           });
         }
       }
     }
   }, [meal, loading]);
+
+  useEffect(() => {
+    // Defensive guard for production hydration/timing:
+    // keep the primary action button visible after route/data updates.
+    if (!loading && meal && buttonRef.current) {
+      gsap.set(buttonRef.current, {
+        opacity: 1,
+        y: 0,
+        visibility: "visible",
+      });
+    }
+  }, [loading, meal]);
 
   const handleTryAgain = async () => {
     // Scroll to top of the page
