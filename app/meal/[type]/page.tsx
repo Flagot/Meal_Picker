@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState, useCallback, useRef } from "react";
-import { useRouter, useParams } from "next/navigation";
+import { useRouter, useParams, useSearchParams } from "next/navigation";
 import gsap from "gsap";
 
 interface Meal {
@@ -11,14 +11,19 @@ interface Meal {
   image: string;
 }
 
+const FAVORITES_STORAGE_KEY = "meal-picker-favorites";
+
 const MealPage = () => {
   const router = useRouter();
   const params = useParams();
+  const searchParams = useSearchParams();
   const mealType = params.type as string;
+  const favoriteMealName = searchParams.get("favorite");
   const [meal, setMeal] = useState<Meal | null>(null);
   const [loading, setLoading] = useState(true);
   const [tryAgainLoading, setTryAgainLoading] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [isFavorite, setIsFavorite] = useState(false);
 
   const cardRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement>(null);
@@ -28,6 +33,32 @@ const MealPage = () => {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const isInitialLoad = useRef(true);
 
+  const getFavorites = useCallback((): Meal[] => {
+    if (typeof window === "undefined") {
+      return [];
+    }
+
+    try {
+      const rawFavorites = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
+      if (!rawFavorites) {
+        return [];
+      }
+
+      const parsedFavorites = JSON.parse(rawFavorites) as Meal[];
+      return Array.isArray(parsedFavorites) ? parsedFavorites : [];
+    } catch (error) {
+      console.error("Failed to read favorites:", error);
+      return [];
+    }
+  }, []);
+
+  const saveFavorites = useCallback((favorites: Meal[]) => {
+    if (typeof window === "undefined") {
+      return;
+    }
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favorites));
+  }, []);
+
   const fetchRandomMeal = useCallback(
     async (isTryAgain: boolean = false) => {
       if (isTryAgain) {
@@ -35,6 +66,23 @@ const MealPage = () => {
       } else {
         setLoading(true);
       }
+
+      if (!isTryAgain && favoriteMealName) {
+        const favorites = getFavorites();
+        const favoriteMeal = favorites.find(
+          (item) =>
+            item.name.toLowerCase() === favoriteMealName.toLowerCase() &&
+            item.type.toLowerCase() === mealType.toLowerCase()
+        );
+
+        if (favoriteMeal) {
+          setMeal(favoriteMeal);
+          setImageError(false);
+          setLoading(false);
+          return;
+        }
+      }
+
       try {
         const response = await fetch(
           `/api/randomMeal?type=${mealType.toLowerCase()}`
@@ -56,7 +104,7 @@ const MealPage = () => {
         }
       }
     },
-    [mealType]
+    [favoriteMealName, getFavorites, mealType]
   );
 
   useEffect(() => {
@@ -167,6 +215,19 @@ const MealPage = () => {
   }, [meal, loading]);
 
   useEffect(() => {
+    if (!meal) {
+      return;
+    }
+    const favorites = getFavorites();
+    const found = favorites.some(
+      (item) =>
+        item.name.toLowerCase() === meal.name.toLowerCase() &&
+        item.type.toLowerCase() === meal.type.toLowerCase()
+    );
+    setIsFavorite(found);
+  }, [getFavorites, meal]);
+
+  useEffect(() => {
     // Defensive guard for production hydration/timing:
     // keep the primary action button visible after route/data updates.
     if (!loading && meal && buttonRef.current) {
@@ -186,6 +247,35 @@ const MealPage = () => {
 
   const handleGoBack = () => {
     router.push("/");
+  };
+
+  const handleToggleFavorite = () => {
+    if (!meal) {
+      return;
+    }
+
+    const favorites = getFavorites();
+    const alreadyFavorite = favorites.some(
+      (item) =>
+        item.name.toLowerCase() === meal.name.toLowerCase() &&
+        item.type.toLowerCase() === meal.type.toLowerCase()
+    );
+
+    if (alreadyFavorite) {
+      const updatedFavorites = favorites.filter(
+        (item) =>
+          !(
+            item.name.toLowerCase() === meal.name.toLowerCase() &&
+            item.type.toLowerCase() === meal.type.toLowerCase()
+          )
+      );
+      saveFavorites(updatedFavorites);
+      setIsFavorite(false);
+      return;
+    }
+
+    saveFavorites([meal, ...favorites]);
+    setIsFavorite(true);
   };
 
   const getMealTypeColor = (type: string) => {
@@ -322,61 +412,77 @@ const MealPage = () => {
 
           {/* Content */}
           <div className="p-6 md:p-8">
-            {/* Try Again button */}
-            <button
-              ref={buttonRef}
-              onClick={handleTryAgain}
-              disabled={tryAgainLoading}
-              className={`group w-full bg-gradient-to-br ${getMealTypeColor(mealType)} text-white px-8 py-6 rounded-2xl hover:shadow-2xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed font-poppins font-bold text-lg shadow-xl hover:scale-[1.02] disabled:hover:scale-100 relative overflow-hidden mb-8 border-2 border-white/20`}
-            >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+              {/* Try Again button */}
+              <button
+                ref={buttonRef}
+                onClick={handleTryAgain}
+                disabled={tryAgainLoading}
+                className={`group w-full bg-gradient-to-br ${getMealTypeColor(mealType)} text-white px-8 py-6 rounded-2xl hover:shadow-2xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed font-poppins font-bold text-lg shadow-xl hover:scale-[1.02] disabled:hover:scale-100 relative overflow-hidden border-2 border-white/20`}
+              >
               {/* Animated background shine effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
               
               {/* Decorative circles */}
-              <div className="absolute top-2 right-2 w-3 h-3 bg-white/30 rounded-full blur-sm"></div>
-              <div className="absolute bottom-2 left-2 w-2 h-2 bg-white/20 rounded-full blur-sm"></div>
+                <div className="absolute top-2 right-2 w-3 h-3 bg-white/30 rounded-full blur-sm"></div>
+                <div className="absolute bottom-2 left-2 w-2 h-2 bg-white/20 rounded-full blur-sm"></div>
               
-              {tryAgainLoading ? (
-                <span className="flex items-center justify-center gap-3 relative z-10">
-                  <svg
-                    className="animate-spin h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle
-                      className="opacity-25"
-                      cx="12"
-                      cy="12"
-                      r="10"
-                      stroke="currentColor"
-                      strokeWidth="4"
-                    ></circle>
-                    <path
-                      className="opacity-75"
-                      fill="currentColor"
-                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                    ></path>
-                  </svg>
-                  <span>Finding another meal...</span>
-                </span>
-              ) : (
-                <span className="flex items-center justify-center gap-3 relative z-10">
-                  <span className="text-3xl transform group-hover:rotate-180 transition-transform duration-500 group-hover:scale-110">
-                    🔄
+                {tryAgainLoading ? (
+                  <span className="flex items-center justify-center gap-3 relative z-10">
+                    <svg
+                      className="animate-spin h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      ></circle>
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      ></path>
+                    </svg>
+                    <span>Finding another meal...</span>
                   </span>
-                  <span className="text-xl">Try Another Meal</span>
-                  <svg 
-                    className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
+                ) : (
+                  <span className="flex items-center justify-center gap-3 relative z-10">
+                    <span className="text-3xl transform group-hover:rotate-180 transition-transform duration-500 group-hover:scale-110">
+                      🔄
+                    </span>
+                    <span className="text-xl">Try Another Meal</span>
+                    <svg
+                      className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </span>
+                )}
+              </button>
+
+              <button
+                onClick={handleToggleFavorite}
+                className={`w-full px-8 py-6 rounded-2xl transition-all duration-300 font-poppins font-bold text-lg shadow-xl border-2 ${
+                  isFavorite
+                    ? "bg-white text-rose-600 border-rose-200 hover:bg-rose-50"
+                    : "bg-white text-gray-700 border-gray-200 hover:bg-gray-50"
+                }`}
+              >
+                <span className="flex items-center justify-center gap-3">
+                  <span className="text-2xl">{isFavorite ? "❤️" : "🤍"}</span>
+                  <span>{isFavorite ? "Remove Favorite" : "Add To Favorites"}</span>
                 </span>
-              )}
-            </button>
+              </button>
+            </div>
 
             {/* Ingredients */}
             <div ref={ingredientsRef} className="mb-8">

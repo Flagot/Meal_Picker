@@ -1,7 +1,17 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import gsap from "gsap";
+
+interface Meal {
+  name: string;
+  type: string;
+  ingredients: string[];
+  instructions: string;
+  image: string;
+}
+
+const FAVORITES_STORAGE_KEY = "meal-picker-favorites";
 
 const page = () => {
   const image1Ref = useRef<HTMLImageElement>(null);
@@ -17,9 +27,33 @@ const page = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const router = useRouter();
+  const [favorites, setFavorites] = useState<Meal[]>([]);
 
   const handleMealClick = (mealType: string) => {
     router.push(`/meal/${mealType.toLowerCase()}`);
+  };
+
+  const handleFavoritePick = (favorite: Meal) => {
+    router.push(
+      `/meal/${favorite.type.toLowerCase()}?favorite=${encodeURIComponent(
+        favorite.name
+      )}`
+    );
+  };
+
+  const handleRemoveFavorite = (favorite: Meal) => {
+    const updatedFavorites = favorites.filter(
+      (item) =>
+        !(
+          item.name.toLowerCase() === favorite.name.toLowerCase() &&
+          item.type.toLowerCase() === favorite.type.toLowerCase()
+        )
+    );
+    setFavorites(updatedFavorites);
+    window.localStorage.setItem(
+      FAVORITES_STORAGE_KEY,
+      JSON.stringify(updatedFavorites)
+    );
   };
 
   const mealTypes = [
@@ -31,6 +65,18 @@ const page = () => {
   ];
 
   useEffect(() => {
+    try {
+      const rawFavorites = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
+      if (rawFavorites) {
+        const parsedFavorites = JSON.parse(rawFavorites) as Meal[];
+        if (Array.isArray(parsedFavorites)) {
+          setFavorites(parsedFavorites);
+        }
+      }
+    } catch (error) {
+      console.error("Failed to load favorites:", error);
+    }
+
     // Animate title
     if (titleRef.current) {
       gsap.from(titleRef.current, {
@@ -205,6 +251,43 @@ const page = () => {
             </button>
           ))}
         </div>
+
+        {favorites.length > 0 && (
+          <div className="mt-14 max-w-5xl mx-auto text-left">
+            <h2 className="text-4xl md:text-5xl font-caveat font-bold text-gray-800 mb-6 text-center">
+              Your Favorites
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {favorites.map((favorite) => (
+                <div
+                  key={`${favorite.type}-${favorite.name}`}
+                  className="bg-white/85 backdrop-blur-sm rounded-2xl p-5 border border-white/70 shadow-lg"
+                >
+                  <p className="text-xs font-poppins font-semibold uppercase tracking-wider text-orange-600 mb-1">
+                    {favorite.type}
+                  </p>
+                  <h3 className="text-2xl font-caveat font-bold text-gray-900 mb-4">
+                    {favorite.name}
+                  </h3>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => handleFavoritePick(favorite)}
+                      className="flex-1 bg-gradient-to-br from-orange-500 to-amber-500 text-white px-4 py-3 rounded-xl hover:from-orange-600 hover:to-amber-600 transition-all duration-300 font-poppins font-semibold"
+                    >
+                      Choose This Meal
+                    </button>
+                    <button
+                      onClick={() => handleRemoveFavorite(favorite)}
+                      className="px-4 py-3 rounded-xl bg-white text-rose-600 border border-rose-200 hover:bg-rose-50 transition-all duration-300 font-poppins font-semibold"
+                    >
+                      Remove
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Food images positioned around the page */}
