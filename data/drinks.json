@@ -1,24 +1,1802 @@
 [
   {
-    "name": "Iced Lemon Tea",
-    "type": "drinks",
-    "ingredients": ["tea", "lemon", "ice", "sugar"],
-    "instructions": "Brew tea. Add lemon and sugar. Pour over ice.",
-    "image": "/firfir.jpg"
+    "id": 1,
+    "name": "Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?water,drink"
   },
   {
-    "name": "Fruit Smoothie",
-    "type": "drinks",
-    "ingredients": ["banana", "strawberries", "yogurt", "milk", "honey"],
-    "instructions": "Blend all ingredients until smooth. Serve chilled.",
-    "image": "/fruit-smoothie.jpg"
+    "id": 2,
+    "name": "Lemon Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lemon-water,drink"
   },
   {
-    "name": "Strawberry Milkshake",
-    "type": "drinks",
-    "ingredients": ["strawberries", "milk", "sugar", "ice"],
-    "instructions": "Blend strawberries, milk, sugar, and ice until smooth. Serve chilled.",
-    "image": "/strawberry-milkshake.jpg"
+    "id": 3,
+    "name": "Orange Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?orange-juice,drink"
+  },
+  {
+    "id": 4,
+    "name": "Apple Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?apple-juice,drink"
+  },
+  {
+    "id": 5,
+    "name": "Mango Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mango-juice,drink"
+  },
+  {
+    "id": 6,
+    "name": "Pineapple Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pineapple-juice,drink"
+  },
+  {
+    "id": 7,
+    "name": "Grape Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?grape-juice,drink"
+  },
+  {
+    "id": 8,
+    "name": "Carrot Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?carrot-juice,drink"
+  },
+  {
+    "id": 9,
+    "name": "Beetroot Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beetroot-juice,drink"
+  },
+  {
+    "id": 10,
+    "name": "Tomato Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tomato-juice,drink"
+  },
+  {
+    "id": 11,
+    "name": "Milk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?milk,drink"
+  },
+  {
+    "id": 12,
+    "name": "Chocolate Milk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-milk,drink"
+  },
+  {
+    "id": 13,
+    "name": "Strawberry Milk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?strawberry-milk,drink"
+  },
+  {
+    "id": 14,
+    "name": "Banana Milkshake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?banana-milkshake,drink"
+  },
+  {
+    "id": 15,
+    "name": "Vanilla Milkshake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vanilla-milkshake,drink"
+  },
+  {
+    "id": 16,
+    "name": "Chocolate Milkshake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-milkshake,drink"
+  },
+  {
+    "id": 17,
+    "name": "Strawberry Smoothie",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?strawberry-smoothie,drink"
+  },
+  {
+    "id": 18,
+    "name": "Mango Smoothie",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mango-smoothie,drink"
+  },
+  {
+    "id": 19,
+    "name": "Berry Smoothie",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?berry-smoothie,drink"
+  },
+  {
+    "id": 20,
+    "name": "Green Smoothie",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?green-smoothie,drink"
+  },
+  {
+    "id": 21,
+    "name": "Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?coffee,drink"
+  },
+  {
+    "id": 22,
+    "name": "Black Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?black-coffee,drink"
+  },
+  {
+    "id": 23,
+    "name": "Espresso",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?espresso,drink"
+  },
+  {
+    "id": 24,
+    "name": "Cappuccino",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cappuccino,drink"
+  },
+  {
+    "id": 25,
+    "name": "Latte",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?latte,drink"
+  },
+  {
+    "id": 26,
+    "name": "Iced Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?iced-coffee,drink"
+  },
+  {
+    "id": 27,
+    "name": "Cold Brew Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cold-brew-coffee,drink"
+  },
+  {
+    "id": 28,
+    "name": "Mocha",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mocha,drink"
+  },
+  {
+    "id": 29,
+    "name": "Macchiato",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?macchiato,drink"
+  },
+  {
+    "id": 30,
+    "name": "Flat White",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?flat-white,drink"
+  },
+  {
+    "id": 31,
+    "name": "Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tea,drink"
+  },
+  {
+    "id": 32,
+    "name": "Black Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?black-tea,drink"
+  },
+  {
+    "id": 33,
+    "name": "Green Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?green-tea,drink"
+  },
+  {
+    "id": 34,
+    "name": "Herbal Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?herbal-tea,drink"
+  },
+  {
+    "id": 35,
+    "name": "Chamomile Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chamomile-tea,drink"
+  },
+  {
+    "id": 36,
+    "name": "Mint Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mint-tea,drink"
+  },
+  {
+    "id": 37,
+    "name": "Ginger Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?ginger-tea,drink"
+  },
+  {
+    "id": 38,
+    "name": "Lemon Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lemon-tea,drink"
+  },
+  {
+    "id": 39,
+    "name": "Iced Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?iced-tea,drink"
+  },
+  {
+    "id": 40,
+    "name": "Peach Iced Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?peach-iced-tea,drink"
+  },
+  {
+    "id": 41,
+    "name": "Soda",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?soda,drink"
+  },
+  {
+    "id": 42,
+    "name": "Cola",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cola,drink"
+  },
+  {
+    "id": 43,
+    "name": "Lemon Soda",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lemon-soda,drink"
+  },
+  {
+    "id": 44,
+    "name": "Orange Soda",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?orange-soda,drink"
+  },
+  {
+    "id": 45,
+    "name": "Sparkling Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sparkling-water,drink"
+  },
+  {
+    "id": 46,
+    "name": "Energy Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?energy-drink,drink"
+  },
+  {
+    "id": 47,
+    "name": "Sports Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sports-drink,drink"
+  },
+  {
+    "id": 48,
+    "name": "Coconut Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?coconut-water,drink"
+  },
+  {
+    "id": 49,
+    "name": "Sugarcane Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sugarcane-juice,drink"
+  },
+  {
+    "id": 50,
+    "name": "Buttermilk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?buttermilk,drink"
+  },
+  {
+    "id": 51,
+    "name": "Lassi",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lassi,drink"
+  },
+  {
+    "id": 52,
+    "name": "Sweet Lassi",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sweet-lassi,drink"
+  },
+  {
+    "id": 53,
+    "name": "Salted Lassi",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?salted-lassi,drink"
+  },
+  {
+    "id": 54,
+    "name": "Rose Milk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?rose-milk,drink"
+  },
+  {
+    "id": 55,
+    "name": "Falooda Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?falooda-drink,drink"
+  },
+  {
+    "id": 56,
+    "name": "Hot Chocolate",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?hot-chocolate,drink"
+  },
+  {
+    "id": 57,
+    "name": "White Hot Chocolate",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?white-hot-chocolate,drink"
+  },
+  {
+    "id": 58,
+    "name": "Matcha Latte",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?matcha-latte,drink"
+  },
+  {
+    "id": 59,
+    "name": "Chai Latte",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chai-latte,drink"
+  },
+  {
+    "id": 60,
+    "name": "Turmeric Milk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?turmeric-milk,drink"
+  },
+  {
+    "id": 61,
+    "name": "Protein Shake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?protein-shake,drink"
+  },
+  {
+    "id": 62,
+    "name": "Vanilla Protein Shake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vanilla-protein-shake,drink"
+  },
+  {
+    "id": 63,
+    "name": "Chocolate Protein Shake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-protein-shake,drink"
+  },
+  {
+    "id": 64,
+    "name": "Fruit Protein Shake",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fruit-protein-shake,drink"
+  },
+  {
+    "id": 65,
+    "name": "Oat Milk Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?oat-milk-drink,drink"
+  },
+  {
+    "id": 66,
+    "name": "Almond Milk Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?almond-milk-drink,drink"
+  },
+  {
+    "id": 67,
+    "name": "Soy Milk Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?soy-milk-drink,drink"
+  },
+  {
+    "id": 68,
+    "name": "Rice Milk Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?rice-milk-drink,drink"
+  },
+  {
+    "id": 69,
+    "name": "Milk Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?milk-tea,drink"
+  },
+  {
+    "id": 70,
+    "name": "Bubble Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?bubble-tea,drink"
+  },
+  {
+    "id": 71,
+    "name": "Taro Bubble Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?taro-bubble-tea,drink"
+  },
+  {
+    "id": 72,
+    "name": "Thai Milk Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?thai-milk-tea,drink"
+  },
+  {
+    "id": 73,
+    "name": "Vietnamese Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vietnamese-coffee,drink"
+  },
+  {
+    "id": 74,
+    "name": "Affogato",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?affogato,drink"
+  },
+  {
+    "id": 75,
+    "name": "Irish Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?irish-coffee,drink"
+  },
+  {
+    "id": 76,
+    "name": "Smoothie Bowl Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?smoothie-bowl-drink,drink"
+  },
+  {
+    "id": 77,
+    "name": "Avocado Smoothie",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?avocado-smoothie,drink"
+  },
+  {
+    "id": 78,
+    "name": "Papaya Smoothie",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?papaya-smoothie,drink"
+  },
+  {
+    "id": 79,
+    "name": "Watermelon Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?watermelon-juice,drink"
+  },
+  {
+    "id": 80,
+    "name": "Cucumber Juice",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cucumber-juice,drink"
+  },
+  {
+    "id": 81,
+    "name": "Detox Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?detox-water,drink"
+  },
+  {
+    "id": 82,
+    "name": "Infused Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?infused-water,drink"
+  },
+  {
+    "id": 83,
+    "name": "Berry Infused Water",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?berry-infused-water,drink"
+  },
+  {
+    "id": 84,
+    "name": "Mint Lemonade",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mint-lemonade,drink"
+  },
+  {
+    "id": 85,
+    "name": "Classic Lemonade",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?classic-lemonade,drink"
+  },
+  {
+    "id": 86,
+    "name": "Strawberry Lemonade",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?strawberry-lemonade,drink"
+  },
+  {
+    "id": 87,
+    "name": "Pink Lemonade",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pink-lemonade,drink"
+  },
+  {
+    "id": 88,
+    "name": "Iced Matcha",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?iced-matcha,drink"
+  },
+  {
+    "id": 89,
+    "name": "Cold Tea Latte",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cold-tea-latte,drink"
+  },
+  {
+    "id": 90,
+    "name": "Fruit Punch",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fruit-punch,drink"
+  },
+  {
+    "id": 91,
+    "name": "Mocktail Mix",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mocktail-mix,drink"
+  },
+  {
+    "id": 92,
+    "name": "Virgin Mojito",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?virgin-mojito,drink"
+  },
+  {
+    "id": 93,
+    "name": "Virgin Pina Colada",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?virgin-pina-colada,drink"
+  },
+  {
+    "id": 94,
+    "name": "Iced Americano",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?iced-americano,drink"
+  },
+  {
+    "id": 95,
+    "name": "Honey Ginger Drink",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?honey-ginger-drink,drink"
+  },
+  {
+    "id": 96,
+    "name": "Spiced Milk",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?spiced-milk,drink"
+  },
+  {
+    "id": 97,
+    "name": "Cardamom Tea",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cardamom-tea,drink"
+  },
+  {
+    "id": 98,
+    "name": "Cinnamon Coffee",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cinnamon-coffee,drink"
+  },
+  {
+    "id": 99,
+    "name": "Caramel Latte",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?caramel-latte,drink"
+  },
+  {
+    "id": 100,
+    "name": "Full Drink Platter",
+    "type": "drink",
+    "ingredients": [
+      "Main liquid base",
+      "Flavoring ingredient",
+      "Sweetener (optional)",
+      "Ice (optional)"
+    ],
+    "instructions": [
+      "Prepare the ingredients.",
+      "Mix or blend all components.",
+      "Adjust sweetness if needed.",
+      "Serve chilled or hot depending on the drink."
+    ],
+    "image": "https://source.unsplash.com/800x600/?full-drink-platter,drink"
   }
 ]
-

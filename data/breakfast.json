@@ -1,17 +1,1842 @@
 [
   {
-    "name": "Pancakes",
+    "id": 1,
+    "name": "Banana and Milk",
     "type": "breakfast",
-    "ingredients": ["flour", "milk", "eggs", "baking powder", "sugar"],
-    "instructions": "Mix all ingredients. Pour batter on pan. Cook until golden on both sides.",
-    "image": "/firfir.jpg"
+    "ingredients": [
+      "1 banana",
+      "1 cup milk"
+    ],
+    "instructions": [
+      "Peel the banana.",
+      "Serve with milk."
+    ],
+    "image": "https://source.unsplash.com/800x600/?banana-and-milk,breakfast"
   },
   {
+    "id": 2,
+    "name": "Boiled Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs",
+      "Water",
+      "Salt"
+    ],
+    "instructions": [
+      "Boil eggs for 8-10 minutes.",
+      "Peel and serve with salt."
+    ],
+    "image": "https://source.unsplash.com/800x600/?boiled-eggs,breakfast"
+  },
+  {
+    "id": 3,
+    "name": "Toast with Butter",
+    "type": "breakfast",
+    "ingredients": [
+      "2 slices bread",
+      "Butter"
+    ],
+    "instructions": [
+      "Toast the bread.",
+      "Spread butter and serve."
+    ],
+    "image": "https://source.unsplash.com/800x600/?toast-with-butter,breakfast"
+  },
+  {
+    "id": 4,
+    "name": "Toast with Peanut Butter",
+    "type": "breakfast",
+    "ingredients": [
+      "2 slices bread",
+      "2 tablespoons peanut butter"
+    ],
+    "instructions": [
+      "Toast the bread.",
+      "Spread peanut butter on top."
+    ],
+    "image": "https://source.unsplash.com/800x600/?toast-with-peanut-butter,breakfast"
+  },
+  {
+    "id": 5,
+    "name": "Fruit Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "1 banana",
+      "1 apple",
+      "1 orange",
+      "1 teaspoon honey"
+    ],
+    "instructions": [
+      "Chop the fruits.",
+      "Mix in a bowl and drizzle honey."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fruit-bowl,breakfast"
+  },
+  {
+    "id": 6,
+    "name": "Yogurt with Honey",
+    "type": "breakfast",
+    "ingredients": [
+      "1 cup yogurt",
+      "1 tablespoon honey"
+    ],
+    "instructions": [
+      "Add yogurt to a bowl.",
+      "Drizzle honey on top and serve."
+    ],
+    "image": "https://source.unsplash.com/800x600/?yogurt-with-honey,breakfast"
+  },
+  {
+    "id": 7,
+    "name": "Oatmeal with Banana",
+    "type": "breakfast",
+    "ingredients": [
+      "1 cup oats",
+      "1 cup milk",
+      "1 banana",
+      "1 teaspoon honey"
+    ],
+    "instructions": [
+      "Cook oats with milk for 5 minutes.",
+      "Top with banana and honey."
+    ],
+    "image": "https://source.unsplash.com/800x600/?oatmeal-with-banana,breakfast"
+  },
+  {
+    "id": 8,
+    "name": "Scrambled Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs",
+      "1 tablespoon butter",
+      "Salt",
+      "Black pepper"
+    ],
+    "instructions": [
+      "Beat eggs with salt and pepper.",
+      "Cook in butter while stirring."
+    ],
+    "image": "https://source.unsplash.com/800x600/?scrambled-eggs,breakfast"
+  },
+  {
+    "id": 9,
+    "name": "Fried Egg Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "1 egg",
+      "2 slices bread",
+      "Salt",
+      "1 teaspoon oil"
+    ],
+    "instructions": [
+      "Fry the egg.",
+      "Toast bread and serve together."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fried-egg-toast,breakfast"
+  },
+  {
+    "id": 10,
+    "name": "Cheese Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "2 slices bread",
+      "Cheese",
+      "Butter"
+    ],
+    "instructions": [
+      "Add cheese between bread slices.",
+      "Toast until the cheese melts."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cheese-toast,breakfast"
+  },
+  {
+    "id": 11,
     "name": "Avocado Toast",
     "type": "breakfast",
-    "ingredients": ["bread", "avocado", "lemon", "salt", "pepper"],
-    "instructions": "Toast bread. Mash avocado with lemon, salt, and pepper. Spread on toast.",
-    "image": "/avocado-toast.jpg"
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?avocado-toast,breakfast"
+  },
+  {
+    "id": 12,
+    "name": "Avocado Egg Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?avocado-egg-toast,breakfast"
+  },
+  {
+    "id": 13,
+    "name": "Pancakes",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pancakes,breakfast"
+  },
+  {
+    "id": 14,
+    "name": "French Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?french-toast,breakfast"
+  },
+  {
+    "id": 15,
+    "name": "Waffles",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?waffles,breakfast"
+  },
+  {
+    "id": 16,
+    "name": "Breakfast Sandwich",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-sandwich,breakfast"
+  },
+  {
+    "id": 17,
+    "name": "Egg and Cheese Wrap",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?egg-and-cheese-wrap,breakfast"
+  },
+  {
+    "id": 18,
+    "name": "Vegetable Omelette",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-omelette,breakfast"
+  },
+  {
+    "id": 19,
+    "name": "Spanish Omelette",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?spanish-omelette,breakfast"
+  },
+  {
+    "id": 20,
+    "name": "Mushroom Omelette",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mushroom-omelette,breakfast"
+  },
+  {
+    "id": 21,
+    "name": "Tomato Egg Skillet",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tomato-egg-skillet,breakfast"
+  },
+  {
+    "id": 22,
+    "name": "Breakfast Burrito",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-burrito,breakfast"
+  },
+  {
+    "id": 23,
+    "name": "Granola Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?granola-bowl,breakfast"
+  },
+  {
+    "id": 24,
+    "name": "Smoothie Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?smoothie-bowl,breakfast"
+  },
+  {
+    "id": 25,
+    "name": "Berry Yogurt Parfait",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?berry-yogurt-parfait,breakfast"
+  },
+  {
+    "id": 26,
+    "name": "Apple Cinnamon Oatmeal",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?apple-cinnamon-oatmeal,breakfast"
+  },
+  {
+    "id": 27,
+    "name": "Peanut Butter Oatmeal",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?peanut-butter-oatmeal,breakfast"
+  },
+  {
+    "id": 28,
+    "name": "Overnight Oats",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?overnight-oats,breakfast"
+  },
+  {
+    "id": 29,
+    "name": "Chia Pudding",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chia-pudding,breakfast"
+  },
+  {
+    "id": 30,
+    "name": "Cereal with Milk",
+    "type": "breakfast",
+    "ingredients": [
+      "2 eggs or main ingredient",
+      "Bread or oats",
+      "Salt",
+      "Black pepper",
+      "Optional vegetables"
+    ],
+    "instructions": [
+      "Prepare the main ingredient.",
+      "Cook or toast as needed.",
+      "Season and serve warm."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cereal-with-milk,breakfast"
+  },
+  {
+    "id": 31,
+    "name": "Bagel with Cream Cheese",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?bagel-with-cream-cheese,breakfast"
+  },
+  {
+    "id": 32,
+    "name": "Egg Salad Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?egg-salad-toast,breakfast"
+  },
+  {
+    "id": 33,
+    "name": "Tuna Breakfast Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tuna-breakfast-toast,breakfast"
+  },
+  {
+    "id": 34,
+    "name": "Chicken Breakfast Wrap",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-breakfast-wrap,breakfast"
+  },
+  {
+    "id": 35,
+    "name": "Turkey Egg Sandwich",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?turkey-egg-sandwich,breakfast"
+  },
+  {
+    "id": 36,
+    "name": "Sausage and Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sausage-and-eggs,breakfast"
+  },
+  {
+    "id": 37,
+    "name": "Bacon and Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?bacon-and-eggs,breakfast"
+  },
+  {
+    "id": 38,
+    "name": "English Breakfast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?english-breakfast,breakfast"
+  },
+  {
+    "id": 39,
+    "name": "American Breakfast Plate",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?american-breakfast-plate,breakfast"
+  },
+  {
+    "id": 40,
+    "name": "Hash Browns with Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?hash-browns-with-eggs,breakfast"
+  },
+  {
+    "id": 41,
+    "name": "Breakfast Quesadilla",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-quesadilla,breakfast"
+  },
+  {
+    "id": 42,
+    "name": "Breakfast Tacos",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-tacos,breakfast"
+  },
+  {
+    "id": 43,
+    "name": "Shakshuka",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?shakshuka,breakfast"
+  },
+  {
+    "id": 44,
+    "name": "Ful Medames",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?ful-medames,breakfast"
+  },
+  {
+    "id": 45,
+    "name": "Genfo",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?genfo,breakfast"
+  },
+  {
+    "id": 46,
+    "name": "Chechebsa",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chechebsa,breakfast"
+  },
+  {
+    "id": 47,
+    "name": "Kinche",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?kinche,breakfast"
+  },
+  {
+    "id": 48,
+    "name": "Firfir",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?firfir,breakfast"
+  },
+  {
+    "id": 49,
+    "name": "Injera with Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?injera-with-eggs,breakfast"
+  },
+  {
+    "id": 50,
+    "name": "Silsi with Bread",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?silsi-with-bread,breakfast"
+  },
+  {
+    "id": 51,
+    "name": "Rice Porridge",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?rice-porridge,breakfast"
+  },
+  {
+    "id": 52,
+    "name": "Congee with Egg",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?congee-with-egg,breakfast"
+  },
+  {
+    "id": 53,
+    "name": "Masala Omelette",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?masala-omelette,breakfast"
+  },
+  {
+    "id": 54,
+    "name": "Idli with Sambar",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?idli-with-sambar,breakfast"
+  },
+  {
+    "id": 55,
+    "name": "Dosa with Chutney",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?dosa-with-chutney,breakfast"
+  },
+  {
+    "id": 56,
+    "name": "Poha",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?poha,breakfast"
+  },
+  {
+    "id": 57,
+    "name": "Upma",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?upma,breakfast"
+  },
+  {
+    "id": 58,
+    "name": "Aloo Paratha",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?aloo-paratha,breakfast"
+  },
+  {
+    "id": 59,
+    "name": "Chapati with Egg",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chapati-with-egg,breakfast"
+  },
+  {
+    "id": 60,
+    "name": "Beans on Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main breakfast ingredient",
+      "Eggs or beans",
+      "Vegetables",
+      "Bread or flatbread",
+      "Salt",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare and chop the ingredients.",
+      "Cook the main mixture in a pan.",
+      "Serve with bread, flatbread, or a side dish."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beans-on-toast,breakfast"
+  },
+  {
+    "id": 61,
+    "name": "Muesli Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?muesli-bowl,breakfast"
+  },
+  {
+    "id": 62,
+    "name": "Cottage Cheese Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cottage-cheese-bowl,breakfast"
+  },
+  {
+    "id": 63,
+    "name": "Protein Pancakes",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?protein-pancakes,breakfast"
+  },
+  {
+    "id": 64,
+    "name": "Egg Muffins",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?egg-muffins,breakfast"
+  },
+  {
+    "id": 65,
+    "name": "Breakfast Pizza",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-pizza,breakfast"
+  },
+  {
+    "id": 66,
+    "name": "Breakfast Casserole",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-casserole,breakfast"
+  },
+  {
+    "id": 67,
+    "name": "Baked Oats",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?baked-oats,breakfast"
+  },
+  {
+    "id": 68,
+    "name": "Banana Pancakes",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?banana-pancakes,breakfast"
+  },
+  {
+    "id": 69,
+    "name": "Sweet Potato Hash",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sweet-potato-hash,breakfast"
+  },
+  {
+    "id": 70,
+    "name": "Breakfast Salad",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-salad,breakfast"
+  },
+  {
+    "id": 71,
+    "name": "Smoked Salmon Bagel",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?smoked-salmon-bagel,breakfast"
+  },
+  {
+    "id": 72,
+    "name": "Eggs Benedict",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?eggs-benedict,breakfast"
+  },
+  {
+    "id": 73,
+    "name": "Croissant Sandwich",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?croissant-sandwich,breakfast"
+  },
+  {
+    "id": 74,
+    "name": "Breakfast Crepes",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-crepes,breakfast"
+  },
+  {
+    "id": 75,
+    "name": "Breakfast Pita",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-pita,breakfast"
+  },
+  {
+    "id": 76,
+    "name": "Mediterranean Breakfast Plate",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mediterranean-breakfast-plate,breakfast"
+  },
+  {
+    "id": 77,
+    "name": "Greek Yogurt Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?greek-yogurt-bowl,breakfast"
+  },
+  {
+    "id": 78,
+    "name": "Hummus Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?hummus-toast,breakfast"
+  },
+  {
+    "id": 79,
+    "name": "Labneh with Flatbread",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?labneh-with-flatbread,breakfast"
+  },
+  {
+    "id": 80,
+    "name": "Feta Egg Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?feta-egg-toast,breakfast"
+  },
+  {
+    "id": 81,
+    "name": "Quinoa Breakfast Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?quinoa-breakfast-bowl,breakfast"
+  },
+  {
+    "id": 82,
+    "name": "Tofu Scramble",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tofu-scramble,breakfast"
+  },
+  {
+    "id": 83,
+    "name": "Vegan Breakfast Burrito",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegan-breakfast-burrito,breakfast"
+  },
+  {
+    "id": 84,
+    "name": "Vegan Overnight Oats",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegan-overnight-oats,breakfast"
+  },
+  {
+    "id": 85,
+    "name": "Avocado Chickpea Toast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?avocado-chickpea-toast,breakfast"
+  },
+  {
+    "id": 86,
+    "name": "Lentil Breakfast Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lentil-breakfast-bowl,breakfast"
+  },
+  {
+    "id": 87,
+    "name": "Black Bean Breakfast Bowl",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?black-bean-breakfast-bowl,breakfast"
+  },
+  {
+    "id": 88,
+    "name": "Cornmeal Porridge",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cornmeal-porridge,breakfast"
+  },
+  {
+    "id": 89,
+    "name": "Millet Porridge",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?millet-porridge,breakfast"
+  },
+  {
+    "id": 90,
+    "name": "Barley Porridge",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?barley-porridge,breakfast"
+  },
+  {
+    "id": 91,
+    "name": "Breakfast Fried Rice",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-fried-rice,breakfast"
+  },
+  {
+    "id": 92,
+    "name": "Egg Noodles Breakfast",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?egg-noodles-breakfast,breakfast"
+  },
+  {
+    "id": 93,
+    "name": "Savoury Oats",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?savoury-oats,breakfast"
+  },
+  {
+    "id": 94,
+    "name": "Spinach Egg Wrap",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?spinach-egg-wrap,breakfast"
+  },
+  {
+    "id": 95,
+    "name": "Tomato Cheese Panini",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tomato-cheese-panini,breakfast"
+  },
+  {
+    "id": 96,
+    "name": "Breakfast Burger",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breakfast-burger,breakfast"
+  },
+  {
+    "id": 97,
+    "name": "Loaded Breakfast Plate",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?loaded-breakfast-plate,breakfast"
+  },
+  {
+    "id": 98,
+    "name": "Steak and Eggs",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?steak-and-eggs,breakfast"
+  },
+  {
+    "id": 99,
+    "name": "Salmon Egg Plate",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?salmon-egg-plate,breakfast"
+  },
+  {
+    "id": 100,
+    "name": "Full Brunch Platter",
+    "type": "breakfast",
+    "ingredients": [
+      "Main protein or grain",
+      "Fresh vegetables or fruit",
+      "Bread, wrap, or bowl base",
+      "Sauce or seasoning",
+      "Optional cheese or herbs"
+    ],
+    "instructions": [
+      "Prepare all ingredients.",
+      "Cook or assemble the meal carefully.",
+      "Add toppings or sauce.",
+      "Serve as a complete breakfast."
+    ],
+    "image": "https://source.unsplash.com/800x600/?full-brunch-platter,breakfast"
   }
 ]
-

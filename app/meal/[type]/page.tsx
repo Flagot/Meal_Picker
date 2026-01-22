@@ -56,7 +56,10 @@ const MealPage = () => {
     if (typeof window === "undefined") {
       return;
     }
-    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favorites));
+    window.localStorage.setItem(
+      FAVORITES_STORAGE_KEY,
+      JSON.stringify(favorites),
+    );
   }, []);
 
   const fetchRandomMeal = useCallback(
@@ -72,7 +75,7 @@ const MealPage = () => {
         const favoriteMeal = favorites.find(
           (item) =>
             item.name.toLowerCase() === favoriteMealName.toLowerCase() &&
-            item.type.toLowerCase() === mealType.toLowerCase()
+            item.type.toLowerCase() === mealType.toLowerCase(),
         );
 
         if (favoriteMeal) {
@@ -85,7 +88,7 @@ const MealPage = () => {
 
       try {
         const response = await fetch(
-          `/api/randomMeal?type=${mealType.toLowerCase()}`
+          `/api/randomMeal?type=${mealType.toLowerCase()}`,
         );
         if (!response.ok) {
           throw new Error("Failed to fetch meal");
@@ -104,7 +107,7 @@ const MealPage = () => {
         }
       }
     },
-    [favoriteMealName, getFavorites, mealType]
+    [favoriteMealName, getFavorites, mealType],
   );
 
   useEffect(() => {
@@ -116,7 +119,7 @@ const MealPage = () => {
   useEffect(() => {
     if (meal && !loading) {
       const shouldAnimate = isInitialLoad.current;
-      
+
       if (shouldAnimate) {
         // Animate card entrance
         if (cardRef.current) {
@@ -187,27 +190,28 @@ const MealPage = () => {
               delay: 0.6,
               ease: "power3.out",
               clearProps: "transform",
-            }
+            },
           );
         }
-        
+
         isInitialLoad.current = false;
       } else {
         // On subsequent loads (Try Again), animate content update smoothly
         if (cardRef.current) {
-          gsap.fromTo(cardRef.current, 
+          gsap.fromTo(
+            cardRef.current,
             { opacity: 0.7, scale: 0.98 },
-            { opacity: 1, scale: 1, duration: 0.4, ease: "power2.out" }
+            { opacity: 1, scale: 1, duration: 0.4, ease: "power2.out" },
           );
         }
-        
+
         // Ensure button stays visible and doesn't disappear
         if (buttonRef.current) {
           gsap.set(buttonRef.current, {
             opacity: 1,
             y: 0,
             visibility: "visible",
-            clearProps: "transform"
+            clearProps: "transform",
           });
         }
       }
@@ -222,7 +226,7 @@ const MealPage = () => {
     const found = favorites.some(
       (item) =>
         item.name.toLowerCase() === meal.name.toLowerCase() &&
-        item.type.toLowerCase() === meal.type.toLowerCase()
+        item.type.toLowerCase() === meal.type.toLowerCase(),
     );
     setIsFavorite(found);
   }, [getFavorites, meal]);
@@ -241,7 +245,7 @@ const MealPage = () => {
 
   const handleTryAgain = async () => {
     // Scroll to top of the page
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
     await fetchRandomMeal(true);
   };
 
@@ -258,7 +262,7 @@ const MealPage = () => {
     const alreadyFavorite = favorites.some(
       (item) =>
         item.name.toLowerCase() === meal.name.toLowerCase() &&
-        item.type.toLowerCase() === meal.type.toLowerCase()
+        item.type.toLowerCase() === meal.type.toLowerCase(),
     );
 
     if (alreadyFavorite) {
@@ -267,7 +271,7 @@ const MealPage = () => {
           !(
             item.name.toLowerCase() === meal.name.toLowerCase() &&
             item.type.toLowerCase() === meal.type.toLowerCase()
-          )
+          ),
       );
       saveFavorites(updatedFavorites);
       setIsFavorite(false);
@@ -288,6 +292,8 @@ const MealPage = () => {
     };
     return colors[type.toLowerCase()] || "from-gray-400 to-gray-500";
   };
+
+  const activeTypeColor = getMealTypeColor(mealType);
 
   if (loading) {
     return (
@@ -310,7 +316,8 @@ const MealPage = () => {
           No meal found
         </div>
         <p className="text-lg text-gray-600 font-poppins text-center max-w-md">
-          We couldn't find a meal for this category. Please try again or go back to choose another option.
+          We couldn't find a meal for this category. Please try again or go back
+          to choose another option.
         </p>
         <button
           onClick={handleGoBack}
@@ -351,17 +358,21 @@ const MealPage = () => {
           {/* Header with image */}
           <div className="relative">
             {meal.image && !imageError ? (
-              <div className="relative h-64 md:h-80 overflow-hidden">
+              <div
+                className={`relative h-64 md:h-80 overflow-hidden bg-gradient-to-br ${activeTypeColor}`}
+              >
                 <img
                   ref={imageRef}
-                  src={meal.image.startsWith('/') ? meal.image : `/${meal.image}`}
+                  src={
+                    meal.image.startsWith("/") ? meal.image : `/${meal.image}`
+                  }
                   alt={meal.name}
                   className="w-full h-full object-cover"
                   onError={() => {
                     // Try alternative path if image fails
                     const img = imageRef.current;
-                    if (img && meal.image.includes('firfir')) {
-                      img.src = '/foods/firfir.jpg';
+                    if (img && meal.image.includes("firfir")) {
+                      img.src = "/foods/firfir.jpg";
                       return;
                     }
                     setImageError(true);
@@ -371,7 +382,9 @@ const MealPage = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
                   <div className="inline-block px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full mb-4">
-                    <span className={`text-sm font-poppins font-semibold capitalize bg-gradient-to-r ${getMealTypeColor(meal.type)} bg-clip-text text-transparent`}>
+                    <span
+                      className={`text-sm font-poppins font-semibold capitalize bg-gradient-to-r ${activeTypeColor} bg-clip-text text-transparent`}
+                    >
                       {meal.type}
                     </span>
                   </div>
@@ -384,7 +397,9 @@ const MealPage = () => {
                 </div>
               </div>
             ) : (
-              <div className={`bg-gradient-to-br ${getMealTypeColor(meal.type)} h-64 md:h-80 p-8 md:p-12 relative overflow-hidden flex items-center`}>
+              <div
+                className={`bg-gradient-to-br ${activeTypeColor} h-64 md:h-80 p-8 md:p-12 relative overflow-hidden flex items-center`}
+              >
                 {/* Decorative pattern */}
                 <div className="absolute inset-0 opacity-10">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-white rounded-full -mr-32 -mt-32"></div>
@@ -392,7 +407,9 @@ const MealPage = () => {
                 </div>
                 <div className="relative z-10 w-full">
                   <div className="inline-block px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full mb-4">
-                    <span className={`text-sm font-poppins font-semibold capitalize bg-gradient-to-r ${getMealTypeColor(meal.type)} bg-clip-text text-transparent`}>
+                    <span
+                      className={`text-sm font-poppins font-semibold capitalize bg-gradient-to-r ${activeTypeColor} bg-clip-text text-transparent`}
+                    >
                       {meal.type}
                     </span>
                   </div>
@@ -402,9 +419,7 @@ const MealPage = () => {
                   >
                     {meal.name}
                   </h2>
-                  <div className="mt-4 text-white/80 text-6xl">
-                    🍽️
-                  </div>
+                  <div className="mt-4 text-white/80 text-6xl">🍽️</div>
                 </div>
               </div>
             )}
@@ -420,13 +435,13 @@ const MealPage = () => {
                 disabled={tryAgainLoading}
                 className={`group w-full bg-gradient-to-br ${getMealTypeColor(mealType)} text-white px-8 py-6 rounded-2xl hover:shadow-2xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed font-poppins font-bold text-lg shadow-xl hover:scale-[1.02] disabled:hover:scale-100 relative overflow-hidden border-2 border-white/20`}
               >
-              {/* Animated background shine effect */}
+                {/* Animated background shine effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-              
-              {/* Decorative circles */}
+
+                {/* Decorative circles */}
                 <div className="absolute top-2 right-2 w-3 h-3 bg-white/30 rounded-full blur-sm"></div>
                 <div className="absolute bottom-2 left-2 w-2 h-2 bg-white/20 rounded-full blur-sm"></div>
-              
+
                 {tryAgainLoading ? (
                   <span className="flex items-center justify-center gap-3 relative z-10">
                     <svg
@@ -463,7 +478,12 @@ const MealPage = () => {
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M13 7l5 5m0 0l-5 5m5-5H6"
+                      />
                     </svg>
                   </span>
                 )}
@@ -479,7 +499,9 @@ const MealPage = () => {
               >
                 <span className="flex items-center justify-center gap-3">
                   <span className="text-2xl">{isFavorite ? "❤️" : "🤍"}</span>
-                  <span>{isFavorite ? "Remove Favorite" : "Add To Favorites"}</span>
+                  <span>
+                    {isFavorite ? "Remove Favorite" : "Add To Favorites"}
+                  </span>
                 </span>
               </button>
             </div>

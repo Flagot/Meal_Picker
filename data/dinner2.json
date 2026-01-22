@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "type": "dinner",
+    "ingredients": ["spaghetti", "eggs", "parmesan", "bacon"],
+    "instructions": "Boil spaghetti. Fry bacon. Mix eggs and parmesan. Combine everything.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Beef Stir Fry",
+    "type": "dinner",
+    "ingredients": [
+      "beef",
+      "bell peppers",
+      "onion",
+      "soy sauce",
+      "garlic",
+      "rice"
+    ],
+    "instructions": "Stir fry beef. Add veggies and sauce. Serve with rice.",
+    "image": "/beef-stirfry.jpg"
+  },
+  {
+    "name": "Chicken Curry",
+    "type": "dinner",
+    "ingredients": [
+      "chicken",
+      "curry powder",
+      "onion",
+      "garlic",
+      "tomato",
+      "rice"
+    ],
+    "instructions": "Cook chicken in curry powder. Add onion, garlic, tomato, and rice. Serve with rice.",
+    "image": "/chicken-curry.jpg"
+  },
+  {
+    "name": "Grilled Salmon",
+    "type": "dinner",
+    "ingredients": ["salmon", "lemon", "garlic", "salt", "pepper"],
+    "instructions": "Grill salmon with lemon, garlic, salt, and pepper.",
+    "image": "/grilled-salmon.jpg"
+  },
+  {
+    "name": "Vegetable Pizza",
+    "type": "dinner",
+    "ingredients": [
+      "pizza dough",
+      "tomatoes",
+      "onion",
+      "bell peppers",
+      "mushrooms",
+      "olive oil"
+    ],
+    "instructions": "Spread pizza dough. Add tomatoes, onion, bell peppers, mushrooms, and olive oil. Bake at 450°F for 15 minutes.",
+    "image": "/vegetable-pizza.jpg"
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "type": "dinner",
+    "ingredients": ["pasta", "chicken", " Alfredo sauce", "parmesan", "garlic"],
+    "instructions": "Cook pasta. Add chicken and Alfredo sauce. Serve with parmesan and garlic.",
+    "image": "/chicken-alfredo-pasta.jpg"
+  },
+  {
+    "name": "Beef Tacos",
+    "type": "dinner",
+    "ingredients": [
+      "beef",
+      "tortillas",
+      "lettuce",
+      "tomato",
+      "onion",
+      "cheese"
+    ],
+    "instructions": "Cook beef. Add lettuce, tomato, onion, and cheese to tortillas. Serve with salsa.",
+    "image": "/beef-tacos.jpg"
+  }
+]
+

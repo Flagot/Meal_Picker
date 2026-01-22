@@ -1,80 +1,1864 @@
 [
   {
-    "name": "Spaghetti Carbonara",
-    "type": "dinner",
-    "ingredients": ["spaghetti", "eggs", "parmesan", "bacon"],
-    "instructions": "Boil spaghetti. Fry bacon. Mix eggs and parmesan. Combine everything.",
-    "image": "/firfir.jpg"
-  },
-  {
-    "name": "Beef Stir Fry",
+    "id": 1,
+    "name": "Rice and Lentils",
     "type": "dinner",
     "ingredients": [
-      "beef",
-      "bell peppers",
-      "onion",
-      "soy sauce",
-      "garlic",
-      "rice"
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
     ],
-    "instructions": "Stir fry beef. Add veggies and sauce. Serve with rice.",
-    "image": "/beef-stirfry.jpg"
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?rice-and-lentils,dinner"
   },
   {
+    "id": 2,
+    "name": "Spaghetti with Tomato Sauce",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?spaghetti-with-tomato-sauce,dinner"
+  },
+  {
+    "id": 3,
+    "name": "Grilled Chicken with Rice",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?grilled-chicken-with-rice,dinner"
+  },
+  {
+    "id": 4,
+    "name": "Fried Rice",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fried-rice,dinner"
+  },
+  {
+    "id": 5,
+    "name": "Vegetable Stir Fry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-stir-fry,dinner"
+  },
+  {
+    "id": 6,
     "name": "Chicken Curry",
     "type": "dinner",
     "ingredients": [
-      "chicken",
-      "curry powder",
-      "onion",
-      "garlic",
-      "tomato",
-      "rice"
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
     ],
-    "instructions": "Cook chicken in curry powder. Add onion, garlic, tomato, and rice. Serve with rice.",
-    "image": "/chicken-curry.jpg"
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-curry,dinner"
   },
   {
-    "name": "Grilled Salmon",
-    "type": "dinner",
-    "ingredients": ["salmon", "lemon", "garlic", "salt", "pepper"],
-    "instructions": "Grill salmon with lemon, garlic, salt, and pepper.",
-    "image": "/grilled-salmon.jpg"
-  },
-  {
-    "name": "Vegetable Pizza",
+    "id": 7,
+    "name": "Beef Stew",
     "type": "dinner",
     "ingredients": [
-      "pizza dough",
-      "tomatoes",
-      "onion",
-      "bell peppers",
-      "mushrooms",
-      "olive oil"
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
     ],
-    "instructions": "Spread pizza dough. Add tomatoes, onion, bell peppers, mushrooms, and olive oil. Bake at 450°F for 15 minutes.",
-    "image": "/vegetable-pizza.jpg"
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-stew,dinner"
   },
   {
+    "id": 8,
+    "name": "Fish and Chips",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fish-and-chips,dinner"
+  },
+  {
+    "id": 9,
+    "name": "Pasta Alfredo",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pasta-alfredo,dinner"
+  },
+  {
+    "id": 10,
+    "name": "Vegetable Soup",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-soup,dinner"
+  },
+  {
+    "id": 11,
+    "name": "Chicken Soup",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-soup,dinner"
+  },
+  {
+    "id": 12,
+    "name": "Lentil Soup",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lentil-soup,dinner"
+  },
+  {
+    "id": 13,
+    "name": "Beef Burger",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-burger,dinner"
+  },
+  {
+    "id": 14,
+    "name": "Chicken Burger",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-burger,dinner"
+  },
+  {
+    "id": 15,
+    "name": "Veggie Burger",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?veggie-burger,dinner"
+  },
+  {
+    "id": 16,
+    "name": "Pizza Margherita",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pizza-margherita,dinner"
+  },
+  {
+    "id": 17,
+    "name": "Pepperoni Pizza",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pepperoni-pizza,dinner"
+  },
+  {
+    "id": 18,
+    "name": "BBQ Chicken Pizza",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?bbq-chicken-pizza,dinner"
+  },
+  {
+    "id": 19,
+    "name": "Tacos",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tacos,dinner"
+  },
+  {
+    "id": 20,
+    "name": "Burritos",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?burritos,dinner"
+  },
+  {
+    "id": 21,
+    "name": "Quesadilla",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?quesadilla,dinner"
+  },
+  {
+    "id": 22,
+    "name": "Grilled Fish",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?grilled-fish,dinner"
+  },
+  {
+    "id": 23,
+    "name": "Roasted Chicken",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?roasted-chicken,dinner"
+  },
+  {
+    "id": 24,
+    "name": "Mashed Potatoes with Gravy",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mashed-potatoes-with-gravy,dinner"
+  },
+  {
+    "id": 25,
+    "name": "Steak with Vegetables",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?steak-with-vegetables,dinner"
+  },
+  {
+    "id": 26,
+    "name": "Chicken Wrap",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-wrap,dinner"
+  },
+  {
+    "id": 27,
+    "name": "Beef Wrap",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-wrap,dinner"
+  },
+  {
+    "id": 28,
+    "name": "Vegetable Wrap",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-wrap,dinner"
+  },
+  {
+    "id": 29,
+    "name": "Sushi Rolls",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sushi-rolls,dinner"
+  },
+  {
+    "id": 30,
+    "name": "Ramen",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?ramen,dinner"
+  },
+  {
+    "id": 31,
+    "name": "Noodles with Vegetables",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?noodles-with-vegetables,dinner"
+  },
+  {
+    "id": 32,
+    "name": "Shrimp Fried Rice",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?shrimp-fried-rice,dinner"
+  },
+  {
+    "id": 33,
+    "name": "Chicken Noodles",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-noodles,dinner"
+  },
+  {
+    "id": 34,
+    "name": "Beef Noodles",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-noodles,dinner"
+  },
+  {
+    "id": 35,
+    "name": "Vegetable Lasagna",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-lasagna,dinner"
+  },
+  {
+    "id": 36,
+    "name": "Chicken Lasagna",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-lasagna,dinner"
+  },
+  {
+    "id": 37,
+    "name": "Baked Salmon",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?baked-salmon,dinner"
+  },
+  {
+    "id": 38,
+    "name": "Roasted Vegetables",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?roasted-vegetables,dinner"
+  },
+  {
+    "id": 39,
+    "name": "Stuffed Peppers",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?stuffed-peppers,dinner"
+  },
+  {
+    "id": 40,
     "name": "Chicken Alfredo Pasta",
     "type": "dinner",
-    "ingredients": ["pasta", "chicken", " Alfredo sauce", "parmesan", "garlic"],
-    "instructions": "Cook pasta. Add chicken and Alfredo sauce. Serve with parmesan and garlic.",
-    "image": "/chicken-alfredo-pasta.jpg"
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-alfredo-pasta,dinner"
   },
   {
+    "id": 41,
+    "name": "Spaghetti Bolognese",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?spaghetti-bolognese,dinner"
+  },
+  {
+    "id": 42,
+    "name": "Mac and Cheese",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mac-and-cheese,dinner"
+  },
+  {
+    "id": 43,
+    "name": "Chicken Parmesan",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-parmesan,dinner"
+  },
+  {
+    "id": 44,
     "name": "Beef Tacos",
     "type": "dinner",
     "ingredients": [
-      "beef",
-      "tortillas",
-      "lettuce",
-      "tomato",
-      "onion",
-      "cheese"
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
     ],
-    "instructions": "Cook beef. Add lettuce, tomato, onion, and cheese to tortillas. Serve with salsa.",
-    "image": "/beef-tacos.jpg"
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-tacos,dinner"
+  },
+  {
+    "id": 45,
+    "name": "Fish Tacos",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fish-tacos,dinner"
+  },
+  {
+    "id": 46,
+    "name": "Grilled Steak",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?grilled-steak,dinner"
+  },
+  {
+    "id": 47,
+    "name": "Chicken Stir Fry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-stir-fry,dinner"
+  },
+  {
+    "id": 48,
+    "name": "Vegetable Curry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-curry,dinner"
+  },
+  {
+    "id": 49,
+    "name": "Paneer Curry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?paneer-curry,dinner"
+  },
+  {
+    "id": 50,
+    "name": "Dal with Rice",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?dal-with-rice,dinner"
+  },
+  {
+    "id": 51,
+    "name": "Fried Chicken",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fried-chicken,dinner"
+  },
+  {
+    "id": 52,
+    "name": "BBQ Ribs",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?bbq-ribs,dinner"
+  },
+  {
+    "id": 53,
+    "name": "Pulled Pork Sandwich",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pulled-pork-sandwich,dinner"
+  },
+  {
+    "id": 54,
+    "name": "Hot Dog",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?hot-dog,dinner"
+  },
+  {
+    "id": 55,
+    "name": "Chicken Shawarma",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-shawarma,dinner"
+  },
+  {
+    "id": 56,
+    "name": "Falafel Wrap",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?falafel-wrap,dinner"
+  },
+  {
+    "id": 57,
+    "name": "Hummus Plate",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?hummus-plate,dinner"
+  },
+  {
+    "id": 58,
+    "name": "Kebab with Rice",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?kebab-with-rice,dinner"
+  },
+  {
+    "id": 59,
+    "name": "Chicken Biryani",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-biryani,dinner"
+  },
+  {
+    "id": 60,
+    "name": "Beef Biryani",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-biryani,dinner"
+  },
+  {
+    "id": 61,
+    "name": "Vegetable Biryani",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-biryani,dinner"
+  },
+  {
+    "id": 62,
+    "name": "Paella",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?paella,dinner"
+  },
+  {
+    "id": 63,
+    "name": "Risotto",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?risotto,dinner"
+  },
+  {
+    "id": 64,
+    "name": "Chicken Pot Pie",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-pot-pie,dinner"
+  },
+  {
+    "id": 65,
+    "name": "Beef Pie",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-pie,dinner"
+  },
+  {
+    "id": 66,
+    "name": "Vegetable Pie",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-pie,dinner"
+  },
+  {
+    "id": 67,
+    "name": "Stuffed Chicken Breast",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?stuffed-chicken-breast,dinner"
+  },
+  {
+    "id": 68,
+    "name": "Grilled Shrimp",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?grilled-shrimp,dinner"
+  },
+  {
+    "id": 69,
+    "name": "Seafood Pasta",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?seafood-pasta,dinner"
+  },
+  {
+    "id": 70,
+    "name": "Clam Chowder",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?clam-chowder,dinner"
+  },
+  {
+    "id": 71,
+    "name": "Minestrone Soup",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?minestrone-soup,dinner"
+  },
+  {
+    "id": 72,
+    "name": "Tom Yum Soup",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tom-yum-soup,dinner"
+  },
+  {
+    "id": 73,
+    "name": "Pad Thai",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pad-thai,dinner"
+  },
+  {
+    "id": 74,
+    "name": "Green Curry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?green-curry,dinner"
+  },
+  {
+    "id": 75,
+    "name": "Red Curry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?red-curry,dinner"
+  },
+  {
+    "id": 76,
+    "name": "Butter Chicken",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?butter-chicken,dinner"
+  },
+  {
+    "id": 77,
+    "name": "Tandoori Chicken",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tandoori-chicken,dinner"
+  },
+  {
+    "id": 78,
+    "name": "Naan with Curry",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?naan-with-curry,dinner"
+  },
+  {
+    "id": 79,
+    "name": "Injera with Doro Wat",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?injera-with-doro-wat,dinner"
+  },
+  {
+    "id": 80,
+    "name": "Injera with Tibs",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?injera-with-tibs,dinner"
+  },
+  {
+    "id": 81,
+    "name": "Shiro Wat",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?shiro-wat,dinner"
+  },
+  {
+    "id": 82,
+    "name": "Kitfo",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?kitfo,dinner"
+  },
+  {
+    "id": 83,
+    "name": "Gomen with Injera",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?gomen-with-injera,dinner"
+  },
+  {
+    "id": 84,
+    "name": "Atakilt Wat",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?atakilt-wat,dinner"
+  },
+  {
+    "id": 85,
+    "name": "Roasted Duck",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?roasted-duck,dinner"
+  },
+  {
+    "id": 86,
+    "name": "Lamb Chops",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?lamb-chops,dinner"
+  },
+  {
+    "id": 87,
+    "name": "Beef Roast",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-roast,dinner"
+  },
+  {
+    "id": 88,
+    "name": "Chicken Fajitas",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-fajitas,dinner"
+  },
+  {
+    "id": 89,
+    "name": "Beef Fajitas",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-fajitas,dinner"
+  },
+  {
+    "id": 90,
+    "name": "Vegetable Fajitas",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-fajitas,dinner"
+  },
+  {
+    "id": 91,
+    "name": "Stuffed Cabbage Rolls",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?stuffed-cabbage-rolls,dinner"
+  },
+  {
+    "id": 92,
+    "name": "Eggplant Parmesan",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?eggplant-parmesan,dinner"
+  },
+  {
+    "id": 93,
+    "name": "Zucchini Pasta",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?zucchini-pasta,dinner"
+  },
+  {
+    "id": 94,
+    "name": "Grilled Vegetable Plate",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?grilled-vegetable-plate,dinner"
+  },
+  {
+    "id": 95,
+    "name": "Chicken Caesar Salad",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-caesar-salad,dinner"
+  },
+  {
+    "id": 96,
+    "name": "Beef Salad",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?beef-salad,dinner"
+  },
+  {
+    "id": 97,
+    "name": "Quinoa Bowl",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?quinoa-bowl,dinner"
+  },
+  {
+    "id": 98,
+    "name": "Full Dinner Platter",
+    "type": "dinner",
+    "ingredients": [
+      "Main protein or base ingredient",
+      "Vegetables or sides",
+      "Oil or butter",
+      "Salt",
+      "Spices or seasoning"
+    ],
+    "instructions": [
+      "Prepare and chop ingredients.",
+      "Cook the main component using appropriate method.",
+      "Add seasoning and combine with sides.",
+      "Serve hot."
+    ],
+    "image": "https://source.unsplash.com/800x600/?full-dinner-platter,dinner"
   }
 ]
-

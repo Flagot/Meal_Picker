@@ -1,0 +1,1617 @@
+[
+  {
+    "id": 1,
+    "name": "Apple Slices",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?apple-slices,snack"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?banana,snack"
+  },
+  {
+    "id": 3,
+    "name": "Orange Segments",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?orange-segments,snack"
+  },
+  {
+    "id": 4,
+    "name": "Mixed Nuts",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mixed-nuts,snack"
+  },
+  {
+    "id": 5,
+    "name": "Roasted Peanuts",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?roasted-peanuts,snack"
+  },
+  {
+    "id": 6,
+    "name": "Popcorn",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?popcorn,snack"
+  },
+  {
+    "id": 7,
+    "name": "Chips",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chips,snack"
+  },
+  {
+    "id": 8,
+    "name": "Granola Bar",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?granola-bar,snack"
+  },
+  {
+    "id": 9,
+    "name": "Protein Bar",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?protein-bar,snack"
+  },
+  {
+    "id": 10,
+    "name": "Energy Bites",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?energy-bites,snack"
+  },
+  {
+    "id": 11,
+    "name": "Yogurt Cup",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?yogurt-cup,snack"
+  },
+  {
+    "id": 12,
+    "name": "Fruit Yogurt",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fruit-yogurt,snack"
+  },
+  {
+    "id": 13,
+    "name": "Greek Yogurt",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?greek-yogurt,snack"
+  },
+  {
+    "id": 14,
+    "name": "Cheese Cubes",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cheese-cubes,snack"
+  },
+  {
+    "id": 15,
+    "name": "Crackers",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?crackers,snack"
+  },
+  {
+    "id": 16,
+    "name": "Cheese and Crackers",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cheese-and-crackers,snack"
+  },
+  {
+    "id": 17,
+    "name": "Peanut Butter Sandwich",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?peanut-butter-sandwich,snack"
+  },
+  {
+    "id": 18,
+    "name": "Jam Sandwich",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?jam-sandwich,snack"
+  },
+  {
+    "id": 19,
+    "name": "Mini Sandwich",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mini-sandwich,snack"
+  },
+  {
+    "id": 20,
+    "name": "Toast Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?toast-snack,snack"
+  },
+  {
+    "id": 21,
+    "name": "Boiled Corn",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?boiled-corn,snack"
+  },
+  {
+    "id": 22,
+    "name": "Roasted Corn",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?roasted-corn,snack"
+  },
+  {
+    "id": 23,
+    "name": "Sweet Corn Cup",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sweet-corn-cup,snack"
+  },
+  {
+    "id": 24,
+    "name": "Vegetable Sticks",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vegetable-sticks,snack"
+  },
+  {
+    "id": 25,
+    "name": "Carrot Sticks",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?carrot-sticks,snack"
+  },
+  {
+    "id": 26,
+    "name": "Cucumber Slices",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cucumber-slices,snack"
+  },
+  {
+    "id": 27,
+    "name": "Hummus with Veggies",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?hummus-with-veggies,snack"
+  },
+  {
+    "id": 28,
+    "name": "Guacamole with Chips",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?guacamole-with-chips,snack"
+  },
+  {
+    "id": 29,
+    "name": "Salsa with Chips",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?salsa-with-chips,snack"
+  },
+  {
+    "id": 30,
+    "name": "Nachos",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?nachos,snack"
+  },
+  {
+    "id": 31,
+    "name": "Mini Pizza",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mini-pizza,snack"
+  },
+  {
+    "id": 32,
+    "name": "Pizza Slice",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pizza-slice,snack"
+  },
+  {
+    "id": 33,
+    "name": "Chicken Nuggets",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-nuggets,snack"
+  },
+  {
+    "id": 34,
+    "name": "Fish Fingers",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fish-fingers,snack"
+  },
+  {
+    "id": 35,
+    "name": "French Fries",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?french-fries,snack"
+  },
+  {
+    "id": 36,
+    "name": "Sweet Potato Fries",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?sweet-potato-fries,snack"
+  },
+  {
+    "id": 37,
+    "name": "Onion Rings",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?onion-rings,snack"
+  },
+  {
+    "id": 38,
+    "name": "Spring Rolls",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?spring-rolls,snack"
+  },
+  {
+    "id": 39,
+    "name": "Samosa",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?samosa,snack"
+  },
+  {
+    "id": 40,
+    "name": "Veggie Samosa",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?veggie-samosa,snack"
+  },
+  {
+    "id": 41,
+    "name": "Chicken Samosa",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-samosa,snack"
+  },
+  {
+    "id": 42,
+    "name": "Dumplings",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?dumplings,snack"
+  },
+  {
+    "id": 43,
+    "name": "Momos",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?momos,snack"
+  },
+  {
+    "id": 44,
+    "name": "Fried Dumplings",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fried-dumplings,snack"
+  },
+  {
+    "id": 45,
+    "name": "Steamed Dumplings",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?steamed-dumplings,snack"
+  },
+  {
+    "id": 46,
+    "name": "Pancake Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pancake-snack,snack"
+  },
+  {
+    "id": 47,
+    "name": "Mini Pancakes",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mini-pancakes,snack"
+  },
+  {
+    "id": 48,
+    "name": "Waffle Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?waffle-snack,snack"
+  },
+  {
+    "id": 49,
+    "name": "Chocolate Bar",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-bar,snack"
+  },
+  {
+    "id": 50,
+    "name": "Dark Chocolate",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?dark-chocolate,snack"
+  },
+  {
+    "id": 51,
+    "name": "Milk Chocolate",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?milk-chocolate,snack"
+  },
+  {
+    "id": 52,
+    "name": "Candy",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?candy,snack"
+  },
+  {
+    "id": 53,
+    "name": "Gummy Bears",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?gummy-bears,snack"
+  },
+  {
+    "id": 54,
+    "name": "Biscuits",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?biscuits,snack"
+  },
+  {
+    "id": 55,
+    "name": "Cookies",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cookies,snack"
+  },
+  {
+    "id": 56,
+    "name": "Chocolate Cookies",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-cookies,snack"
+  },
+  {
+    "id": 57,
+    "name": "Oat Cookies",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?oat-cookies,snack"
+  },
+  {
+    "id": 58,
+    "name": "Peanut Cookies",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?peanut-cookies,snack"
+  },
+  {
+    "id": 59,
+    "name": "Cake Slice",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cake-slice,snack"
+  },
+  {
+    "id": 60,
+    "name": "Cupcake",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cupcake,snack"
+  },
+  {
+    "id": 61,
+    "name": "Muffin",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?muffin,snack"
+  },
+  {
+    "id": 62,
+    "name": "Banana Bread Slice",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?banana-bread-slice,snack"
+  },
+  {
+    "id": 63,
+    "name": "Brownie",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?brownie,snack"
+  },
+  {
+    "id": 64,
+    "name": "Chocolate Brownie",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-brownie,snack"
+  },
+  {
+    "id": 65,
+    "name": "Ice Cream",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?ice-cream,snack"
+  },
+  {
+    "id": 66,
+    "name": "Vanilla Ice Cream",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?vanilla-ice-cream,snack"
+  },
+  {
+    "id": 67,
+    "name": "Chocolate Ice Cream",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chocolate-ice-cream,snack"
+  },
+  {
+    "id": 68,
+    "name": "Strawberry Ice Cream",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?strawberry-ice-cream,snack"
+  },
+  {
+    "id": 69,
+    "name": "Frozen Yogurt",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?frozen-yogurt,snack"
+  },
+  {
+    "id": 70,
+    "name": "Milkshake Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?milkshake-snack,snack"
+  },
+  {
+    "id": 71,
+    "name": "Fruit Salad",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?fruit-salad,snack"
+  },
+  {
+    "id": 72,
+    "name": "Berry Mix",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?berry-mix,snack"
+  },
+  {
+    "id": 73,
+    "name": "Apple with Peanut Butter",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?apple-with-peanut-butter,snack"
+  },
+  {
+    "id": 74,
+    "name": "Banana with Honey",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?banana-with-honey,snack"
+  },
+  {
+    "id": 75,
+    "name": "Dates",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?dates,snack"
+  },
+  {
+    "id": 76,
+    "name": "Dried Fruits",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?dried-fruits,snack"
+  },
+  {
+    "id": 77,
+    "name": "Trail Mix",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?trail-mix,snack"
+  },
+  {
+    "id": 78,
+    "name": "Energy Balls",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?energy-balls,snack"
+  },
+  {
+    "id": 79,
+    "name": "Rice Cakes",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?rice-cakes,snack"
+  },
+  {
+    "id": 80,
+    "name": "Rice Crackers",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?rice-crackers,snack"
+  },
+  {
+    "id": 81,
+    "name": "Breadsticks",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?breadsticks,snack"
+  },
+  {
+    "id": 82,
+    "name": "Pretzels",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?pretzels,snack"
+  },
+  {
+    "id": 83,
+    "name": "Cheese Sticks",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?cheese-sticks,snack"
+  },
+  {
+    "id": 84,
+    "name": "Mini Wrap",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mini-wrap,snack"
+  },
+  {
+    "id": 85,
+    "name": "Chicken Wrap Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-wrap-snack,snack"
+  },
+  {
+    "id": 86,
+    "name": "Veggie Wrap Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?veggie-wrap-snack,snack"
+  },
+  {
+    "id": 87,
+    "name": "Tuna Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?tuna-snack,snack"
+  },
+  {
+    "id": 88,
+    "name": "Egg Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?egg-snack,snack"
+  },
+  {
+    "id": 89,
+    "name": "Boiled Egg Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?boiled-egg-snack,snack"
+  },
+  {
+    "id": 90,
+    "name": "Scrambled Egg Snack",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?scrambled-egg-snack,snack"
+  },
+  {
+    "id": 91,
+    "name": "Mini Burger",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?mini-burger,snack"
+  },
+  {
+    "id": 92,
+    "name": "Slider Burger",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?slider-burger,snack"
+  },
+  {
+    "id": 93,
+    "name": "Chicken Slider",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?chicken-slider,snack"
+  },
+  {
+    "id": 94,
+    "name": "Veggie Slider",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?veggie-slider,snack"
+  },
+  {
+    "id": 95,
+    "name": "Snack Platter",
+    "type": "snack",
+    "ingredients": [
+      "Main snack ingredient",
+      "Optional seasoning or topping",
+      "Optional dip or sauce"
+    ],
+    "instructions": [
+      "Prepare the snack ingredients.",
+      "Assemble or cook if necessary.",
+      "Add toppings or dip.",
+      "Serve immediately."
+    ],
+    "image": "https://source.unsplash.com/800x600/?snack-platter,snack"
+  }
+]

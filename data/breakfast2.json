@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Pancakes",
+    "type": "breakfast",
+    "ingredients": ["flour", "milk", "eggs", "baking powder", "sugar"],
+    "instructions": "Mix all ingredients. Pour batter on pan. Cook until golden on both sides.",
+    "image": "/firfir.jpg"
+  },
+  {
+    "name": "Avocado Toast",
+    "type": "breakfast",
+    "ingredients": ["bread", "avocado", "lemon", "salt", "pepper"],
+    "instructions": "Toast bread. Mash avocado with lemon, salt, and pepper. Spread on toast.",
+    "image": "/avocado-toast.jpg"
+  }
+]
+
