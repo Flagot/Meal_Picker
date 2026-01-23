@@ -38,11 +38,41 @@ const page = () => {
   };
 
   const mealTypes = [
-    { name: "Breakfast", color: "from-amber-400 to-orange-500", hoverColor: "hover:from-amber-500 hover:to-orange-600", ref: breakfastButtonRef, icon: "🌅" },
-    { name: "Lunch", color: "from-emerald-400 to-green-500", hoverColor: "hover:from-emerald-500 hover:to-green-600", ref: lunchButtonRef, icon: "🍽️" },
-    { name: "Dinner", color: "from-rose-400 to-pink-500", hoverColor: "hover:from-rose-500 hover:to-pink-600", ref: dinnerButtonRef, icon: "🌙" },
-    { name: "Snack", color: "from-violet-400 to-purple-500", hoverColor: "hover:from-violet-500 hover:to-purple-600", ref: snackButtonRef, icon: "🍿" },
-    { name: "Drinks", color: "from-cyan-400 to-blue-500", hoverColor: "hover:from-cyan-500 hover:to-blue-600", ref: drinksButtonRef, icon: "🥤" },
+    {
+      name: "Breakfast",
+      color: "from-amber-400 to-orange-500",
+      hoverColor: "hover:from-amber-500 hover:to-orange-600",
+      ref: breakfastButtonRef,
+      icon: "🌅",
+    },
+    {
+      name: "Lunch",
+      color: "from-emerald-400 to-green-500",
+      hoverColor: "hover:from-emerald-500 hover:to-green-600",
+      ref: lunchButtonRef,
+      icon: "🍽️",
+    },
+    {
+      name: "Dinner",
+      color: "from-rose-400 to-pink-500",
+      hoverColor: "hover:from-rose-500 hover:to-pink-600",
+      ref: dinnerButtonRef,
+      icon: "🌙",
+    },
+    {
+      name: "Snack",
+      color: "from-violet-400 to-purple-500",
+      hoverColor: "hover:from-violet-500 hover:to-purple-600",
+      ref: snackButtonRef,
+      icon: "🍿",
+    },
+    {
+      name: "Drinks",
+      color: "from-cyan-400 to-blue-500",
+      hoverColor: "hover:from-cyan-500 hover:to-blue-600",
+      ref: drinksButtonRef,
+      icon: "🥤",
+    },
   ];
 
   useEffect(() => {
@@ -200,7 +230,8 @@ const page = () => {
             ref={subtitleRef}
             className="text-xl md:text-2xl text-gray-700 font-poppins font-medium max-w-2xl mx-auto leading-relaxed"
           >
-            Can't decide what to eat? Let us help you discover your perfect meal.
+            Can't decide what to eat? Let us help you discover your perfect
+            meal.
           </p>
         </div>
 
@@ -230,17 +261,17 @@ const page = () => {
             >
               {/* Shine effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-              
+
               {/* Icon */}
               <span className="text-5xl relative z-10 transform group-hover:scale-110 transition-transform duration-300">
                 {meal.icon}
               </span>
-              
+
               {/* Text */}
               <span className="relative z-10 font-poppins font-bold text-xl">
                 {meal.name}
               </span>
-              
+
               {/* Decorative circle */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-white/10 rounded-full blur-2xl group-hover:bg-white/20 transition-colors duration-300"></div>
               <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-white/10 rounded-full blur-xl group-hover:bg-white/20 transition-colors duration-300"></div>

@@ -15,6 +15,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Meal Picker",
   description: "A meal picker app",
+  openGraph: {
+    title: "Meal Picker",
+    description: "A meal picker app",
+    url: "https://meal-picker-omega.vercel.app/",
+    siteName: "Meal Picker",
+    images: [
+      {
+        url: "https://meal-picker-omega.vercel.app/meal-picker.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
