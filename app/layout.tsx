@@ -29,6 +29,12 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Meal Picker",
+    description: "A meal picker app",
+    images: ["https://meal-picker-omega.vercel.app/meal-picker.png"],
+  },
 };
 
 export default function RootLayout({
